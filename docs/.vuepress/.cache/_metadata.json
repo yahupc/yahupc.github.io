@@ -1,0 +1,156 @@
+{
+  "hash": "17119081",
+  "browserHash": "9eb8560a",
+  "optimized": {
+    "vue": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/vue.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js",
+      "needsInterop": false
+    },
+    "vue-router": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/vue-router.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/vue-router/dist/vue-router.esm-bundler.js",
+      "needsInterop": false
+    },
+    "@vue/devtools-api": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/@vue_devtools-api.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/@vue/devtools-api/lib/esm/index.js",
+      "needsInterop": false
+    },
+    "nprogress": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/nprogress.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/nprogress/nprogress.js",
+      "needsInterop": true
+    },
+    "lodash.debounce": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/lodash_debounce.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/lodash.debounce/index.js",
+      "needsInterop": true
+    },
+    "@vueuse/core": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/@vueuse_core.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/@vueuse/core/index.mjs",
+      "needsInterop": false
+    },
+    "@waline/client": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/@waline_client.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/@waline/client/dist/Waline.min.js",
+      "needsInterop": true
+    },
+    "flowchart.js": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/flowchart_js.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/flowchart.js/index.js",
+      "needsInterop": true
+    },
+    "mermaid": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/mermaid.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/mermaid/dist/mermaid.esm.min.mjs",
+      "needsInterop": false
+    },
+    "reveal.js/dist/reveal.esm.js": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/reveal_js_dist_reveal_esm_js.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/reveal.js/dist/reveal.esm.js",
+      "needsInterop": false
+    },
+    "reveal.js/plugin/markdown/markdown.esm.js": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/reveal_js_plugin_markdown_markdown_esm_js.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/reveal.js/plugin/markdown/markdown.esm.js",
+      "needsInterop": false
+    },
+    "reveal.js/plugin/highlight/highlight.esm.js": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/reveal_js_plugin_highlight_highlight_esm_js.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/reveal.js/plugin/highlight/highlight.esm.js",
+      "needsInterop": false
+    },
+    "reveal.js/plugin/math/math.esm.js": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/reveal_js_plugin_math_math_esm_js.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/reveal.js/plugin/math/math.esm.js",
+      "needsInterop": false
+    },
+    "reveal.js/plugin/search/search.esm.js": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/reveal_js_plugin_search_search_esm_js.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/reveal.js/plugin/search/search.esm.js",
+      "needsInterop": false
+    },
+    "reveal.js/plugin/notes/notes.esm.js": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/reveal_js_plugin_notes_notes_esm_js.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/reveal.js/plugin/notes/notes.esm.js",
+      "needsInterop": false
+    },
+    "reveal.js/plugin/zoom/zoom.esm.js": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/reveal_js_plugin_zoom_zoom_esm_js.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/reveal.js/plugin/zoom/zoom.esm.js",
+      "needsInterop": false
+    },
+    "photoswipe": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/photoswipe.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/photoswipe/dist/photoswipe.js",
+      "needsInterop": true
+    },
+    "photoswipe/dist/photoswipe-ui-default": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/photoswipe_dist_photoswipe-ui-default.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/photoswipe/dist/photoswipe-ui-default.js",
+      "needsInterop": true
+    },
+    "mitt": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/mitt.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/mitt/dist/mitt.mjs",
+      "needsInterop": false
+    },
+    "register-service-worker": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/register-service-worker.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/register-service-worker/index.js",
+      "needsInterop": false
+    },
+    "bcryptjs": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/bcryptjs.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/bcryptjs/dist/bcrypt.js",
+      "needsInterop": true
+    },
+    "body-scroll-lock": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/body-scroll-lock.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/body-scroll-lock/lib/bodyScrollLock.esm.js",
+      "needsInterop": false
+    },
+    "lodash.throttle": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/lodash_throttle.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/lodash.throttle/index.js",
+      "needsInterop": true
+    },
+    "@mr-hope/vuepress-shared/lib/client": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/@mr-hope_vuepress-shared_lib_client.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/@mr-hope/vuepress-shared/lib/client/index.js",
+      "needsInterop": false
+    },
+    "dayjs": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/dayjs.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/dayjs/dayjs.min.js",
+      "needsInterop": true
+    },
+    "dayjs/plugin/localizedFormat": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/dayjs_plugin_localizedFormat.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/dayjs/plugin/localizedFormat.js",
+      "needsInterop": true
+    },
+    "dayjs/plugin/objectSupport": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/dayjs_plugin_objectSupport.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/dayjs/plugin/objectSupport.js",
+      "needsInterop": true
+    },
+    "dayjs/plugin/timezone": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/dayjs_plugin_timezone.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/dayjs/plugin/timezone.js",
+      "needsInterop": true
+    },
+    "dayjs/plugin/utc": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/dayjs_plugin_utc.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/dayjs/plugin/utc.js",
+      "needsInterop": true
+    },
+    "@vuepress/shared": {
+      "file": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.cache/@vuepress_shared.js",
+      "src": "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/@vuepress/shared/lib/esm/index.js",
+      "needsInterop": false
+    }
+  }
+}
