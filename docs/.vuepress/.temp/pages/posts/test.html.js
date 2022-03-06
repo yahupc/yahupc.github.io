@@ -1,16 +1,29 @@
 export const data = {
   "key": "v-2be07832",
   "path": "/posts/test.html",
-  "title": "",
+  "title": "Extensiones Vscode para analisis de datos",
   "lang": "en-US",
   "frontmatter": {
-    "summary": "",
+    "icon": "home",
+    "sticky": true,
+    "category": [
+      "Analisis de datos"
+    ],
+    "star": true,
+    "summary": "Extensiones Vscode para analisis de datos Python; Magic Python; Material Icon Theme; Rainbow Brackets;",
     "head": [
       [
         "meta",
         {
           "property": "og:url",
           "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/posts/test.html"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "Extensiones Vscode para analisis de datos"
         }
       ],
       [
@@ -39,8 +52,8 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "readingTime": {
-    "minutes": 0,
-    "words": 0
+    "minutes": 0.05,
+    "words": 14
   },
   "filePathRelative": "posts/test.md"
 }

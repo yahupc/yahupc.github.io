@@ -5,7 +5,7 @@ export const data = {
   "lang": "en-US",
   "frontmatter": {
     "article": false,
-    "summary": "Cursos Lista de Curso de Desarrollo Web realizados en Platzi. Backend\rdiploma-intro-laravel-2020.; \rdiploma-jee.; \rdiploma-oop.; \rdiploma-java-se.; \rdiploma-java-persistencia.; \rdi",
+    "summary": "Cursos Lista de Curso de Desarrollo Web realizados en Platzi. Backend diploma-intro-laravel-2020.; diploma-jee.; diploma-oop.; diploma-java-se.; diploma-java-persistencia.; diploma",
     "head": [
       [
         "meta",
@@ -59,7 +59,17 @@ export const data = {
       "children": []
     }
   ],
-  "git": {},
+  "git": {
+    "createdTime": 1646417179000,
+    "updatedTime": 1646417179000,
+    "contributors": [
+      {
+        "name": "yahu39",
+        "email": "yahu39pc@gmail.com",
+        "commits": 1
+      }
+    ]
+  },
   "readingTime": {
     "minutes": 0.71,
     "words": 212

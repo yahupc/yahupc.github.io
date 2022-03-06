@@ -7,6 +7,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "About",
+    "headers": [],
+    "path": "/about/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Certificaciones",
     "headers": [],
     "path": "/about/certifications.html",
@@ -78,16 +85,37 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "About",
+    "title": "Portafolio",
     "headers": [],
-    "path": "/about/",
+    "path": "/portfolio/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Portafolio",
-    "headers": [],
-    "path": "/portfolio/",
+    "title": "Instalando Anaconda",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Ambientes Conda",
+        "slug": "ambientes-conda",
+        "children": []
+      }
+    ],
+    "path": "/posts/anaconda.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Extensiones VSCode para analisis de datos",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Notebook dentro de VSCode",
+        "slug": "notebook-dentro-de-vscode",
+        "children": []
+      }
+    ],
+    "path": "/posts/extensions.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -144,6 +172,13 @@ export const searchIndex = [
     "title": "Timeline",
     "headers": [],
     "path": "/timeline/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Data science Category",
+    "headers": [],
+    "path": "/category/data-science/",
     "pathLocale": "/",
     "extraFields": []
   }
