@@ -7,13 +7,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "About",
-    "headers": [],
-    "path": "/about/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Certificaciones",
     "headers": [],
     "path": "/about/certifications.html",
@@ -81,6 +74,13 @@ export const searchIndex = [
       }
     ],
     "path": "/about/experience.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "About",
+    "headers": [],
+    "path": "/about/",
     "pathLocale": "/",
     "extraFields": []
   },

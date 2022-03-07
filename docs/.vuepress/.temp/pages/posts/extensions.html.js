@@ -10,7 +10,7 @@ export const data = {
       "Data science"
     ],
     "star": true,
-    "summary": "Extensiones VSCode para analisis de datos Python; Magic Python; Material Icon Theme; Rainbow Brackets; Remote Development; Notebook dentro de VSCode Crea una carpeta , añade un arc",
+    "summary": "Extensiones VSCode para analisis de datos\rPython; \rMagic Python; \rMaterial Icon Theme; \rRainbow Brackets; \rRemote Development; Notebook dentro de VSCode\rCrea una carpeta , añade un",
     "head": [
       [
         "meta",
@@ -59,9 +59,15 @@ export const data = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1646552986000,
+    "updatedTime": 1646552986000,
+    "contributors": [
+      {
+        "name": "yahupc",
+        "email": "yahu39pc@gmail.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 0.8,

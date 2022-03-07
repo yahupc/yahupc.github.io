@@ -38,5 +38,11 @@ export default defineHopeConfig({
         isSearchable: (page) => page.path !== '/',
       },
     ],
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-22228940-1' // UA-00000000-0
+      }
+    ]
   ],
 });

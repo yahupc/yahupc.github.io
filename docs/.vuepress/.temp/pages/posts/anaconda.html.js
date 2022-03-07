@@ -9,7 +9,7 @@ export const data = {
       "Data science"
     ],
     "star": true,
-    "summary": "Instalando Anaconda Nos dirigimos a la pagina oficial de Anaconda; Descargamos el instalador dependiendo de nuestro sistema operativo.; \" Si estas en Linux podrias usar el siguient",
+    "summary": "Instalando Anaconda\rNos dirigimos a la pagina oficial de Anaconda; \rDescargamos el instalador dependiendo de nuestro sistema operativo.; \r\" Si estas en Linux podrias usar el siguie",
     "head": [
       [
         "meta",
@@ -58,9 +58,15 @@ export const data = {
     }
   ],
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1646552986000,
+    "updatedTime": 1646552986000,
+    "contributors": [
+      {
+        "name": "yahupc",
+        "email": "yahu39pc@gmail.com",
+        "commits": 1
+      }
+    ]
   },
   "readingTime": {
     "minutes": 1.73,

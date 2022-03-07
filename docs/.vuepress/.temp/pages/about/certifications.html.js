@@ -5,7 +5,7 @@ export const data = {
   "lang": "en-US",
   "frontmatter": {
     "article": false,
-    "summary": "Certificaciones DevOps Essentials Professional Certificate, Certiprof.; Scrum Foundation Professional Certificate, Certiprof.;",
+    "summary": "Certificaciones\rDevOps Essentials Professional Certificate, Certiprof.; \rScrum Foundation Professional Certificate, Certiprof.;",
     "head": [
       [
         "meta",

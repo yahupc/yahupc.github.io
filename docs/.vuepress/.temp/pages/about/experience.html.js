@@ -5,7 +5,7 @@ export const data = {
   "lang": "en-US",
   "frontmatter": {
     "article": false,
-    "summary": "Experiencia Asis Technology Partners, San Isidro - Lima: Diciembre 2021 - Actualidad; PHP | Python Backend Developer ; Kalp Perú S.A.C, Chiclayo : Octubre 2020 – Noviembre 2021; PH",
+    "summary": "Experiencia Asis Technology Partners, San Isidro - Lima:\rDiciembre 2021 - Actualidad; \rPHP | Python Backend Developer ; Kalp Perú S.A.C, Chiclayo :\rOctubre 2020 – Noviembre 2021; \r",
     "head": [
       [
         "meta",
