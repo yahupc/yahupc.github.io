@@ -43,6 +43,12 @@ export default defineHopeConfig({
       {
         ga: 'UA-222289840-1', // UA-00000000-0
       }
-    ]
+    ],
+    [
+      '@vuepress/plugin-google-analytics',
+      {
+        id: 'G-YXDKJW0D0D',
+      },
+    ],
   ],
 });
