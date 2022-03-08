@@ -47,7 +47,7 @@ export default defineHopeConfig({
     [
       '@vuepress/plugin-google-analytics',
       {
-        id: 'G-YXDKJW0D0D',
+        id: 'G-WJE94BMXXE',
       },
     ],
   ],
