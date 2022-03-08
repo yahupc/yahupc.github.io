@@ -26,5 +26,5 @@ Me desempeño principalmente como PHP Backend Developer , uso Laravel como frame
 Tengo conocimientos además en Java (framework SpringBoot) en lado del Backend y HTML, CSS, Javascript(framework Vue) en lado del Frontend.
 
 :::right
-[Mis Certificaciones →](/about/certifications)
+[Mis Certificaciones →](/about/certifications.html)
 :::
