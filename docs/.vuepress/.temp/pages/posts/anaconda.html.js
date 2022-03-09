@@ -4,7 +4,7 @@ export const data = {
   "title": "Instalando Anaconda",
   "lang": "en-US",
   "frontmatter": {
-    "icon": "home",
+    "icon": "python",
     "category": [
       "Data science"
     ],
@@ -49,28 +49,23 @@ export const data = {
     ]
   },
   "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "Ambientes Conda",
-      "slug": "ambientes-conda",
-      "children": []
-    }
-  ],
-  "git": {
-    "createdTime": 1646552986000,
-    "updatedTime": 1646552986000,
-    "contributors": [
-      {
-        "name": "yahupc",
-        "email": "yahu39pc@gmail.com",
-        "commits": 1
-      }
-    ]
-  },
+  "headers": [],
   "readingTime": {
-    "minutes": 1.73,
-    "words": 520
+    "minutes": 1.7,
+    "words": 509
   },
   "filePathRelative": "posts/anaconda.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

@@ -13,10 +13,14 @@ export const pagesData = {
   "v-74bc627b": () => import(/* webpackChunkName: "v-74bc627b" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/about/index.html.js").then(({ data }) => data),
   // path: /portfolio/
   "v-2e4c18c0": () => import(/* webpackChunkName: "v-2e4c18c0" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/portfolio/index.html.js").then(({ data }) => data),
-  // path: /posts/anaconda.html
-  "v-68c606b9": () => import(/* webpackChunkName: "v-68c606b9" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/anaconda.html.js").then(({ data }) => data),
-  // path: /posts/extensions.html
-  "v-593c45b0": () => import(/* webpackChunkName: "v-593c45b0" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/extensions.html.js").then(({ data }) => data),
+  // path: /posts/datascience/entorno/anaconda.html
+  "v-6bb3fea4": () => import(/* webpackChunkName: "v-6bb3fea4" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/datascience/entorno/anaconda.html.js").then(({ data }) => data),
+  // path: /posts/datascience/entorno/comandos_avanzados.html
+  "v-42eaf6b5": () => import(/* webpackChunkName: "v-42eaf6b5" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/datascience/entorno/comandos_avanzados.html.js").then(({ data }) => data),
+  // path: /posts/datascience/entorno/conda_env.html
+  "v-39264676": () => import(/* webpackChunkName: "v-39264676" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/datascience/entorno/conda_env.html.js").then(({ data }) => data),
+  // path: /posts/datascience/entorno/extensions.html
+  "v-588beedb": () => import(/* webpackChunkName: "v-588beedb" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/datascience/entorno/extensions.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
   // path: /category/

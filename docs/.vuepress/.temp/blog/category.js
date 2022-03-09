@@ -1,4 +1,4 @@
-export const categoryMap = {"category":{"/":{"path":"/category/","map":{"Data science":{"path":"/category/data-science/","keys":["v-593c45b0","v-68c606b9"]}}}},"tag":{"/":{"path":"/tag/","map":{}}}}
+export const categoryMap = {"category":{"/":{"path":"/category/","map":{"Data science":{"path":"/category/data-science/","keys":["v-588beedb","v-6bb3fea4","v-42eaf6b5","v-39264676"]}}}},"tag":{"/":{"path":"/tag/","map":{}}}}
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

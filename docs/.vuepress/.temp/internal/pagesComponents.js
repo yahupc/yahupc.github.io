@@ -15,10 +15,14 @@ export const pagesComponents = {
   "v-74bc627b": defineAsyncComponent(() => import(/* webpackChunkName: "v-74bc627b" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/about/index.html.vue")),
   // path: /portfolio/
   "v-2e4c18c0": defineAsyncComponent(() => import(/* webpackChunkName: "v-2e4c18c0" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/portfolio/index.html.vue")),
-  // path: /posts/anaconda.html
-  "v-68c606b9": defineAsyncComponent(() => import(/* webpackChunkName: "v-68c606b9" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/anaconda.html.vue")),
-  // path: /posts/extensions.html
-  "v-593c45b0": defineAsyncComponent(() => import(/* webpackChunkName: "v-593c45b0" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/extensions.html.vue")),
+  // path: /posts/datascience/entorno/anaconda.html
+  "v-6bb3fea4": defineAsyncComponent(() => import(/* webpackChunkName: "v-6bb3fea4" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/datascience/entorno/anaconda.html.vue")),
+  // path: /posts/datascience/entorno/comandos_avanzados.html
+  "v-42eaf6b5": defineAsyncComponent(() => import(/* webpackChunkName: "v-42eaf6b5" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/datascience/entorno/comandos_avanzados.html.vue")),
+  // path: /posts/datascience/entorno/conda_env.html
+  "v-39264676": defineAsyncComponent(() => import(/* webpackChunkName: "v-39264676" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/datascience/entorno/conda_env.html.vue")),
+  // path: /posts/datascience/entorno/extensions.html
+  "v-588beedb": defineAsyncComponent(() => import(/* webpackChunkName: "v-588beedb" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/datascience/entorno/extensions.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/404.html.vue")),
   // path: /category/

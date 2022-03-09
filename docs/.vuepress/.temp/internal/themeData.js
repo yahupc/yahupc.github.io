@@ -41,7 +41,34 @@ export const themeData = {
       ],
       "sidebar": {
         "/": [
-          "",
+          {
+            "icon": "blog",
+            "text": "Blog",
+            "collapsable": true,
+            "prefix": "posts/",
+            "children": [
+              {
+                "icon": "python",
+                "text": "Data Science",
+                "collapsable": true,
+                "prefix": "datascience/",
+                "children": [
+                  {
+                    "icon": "python",
+                    "text": "Entorno",
+                    "collapsable": true,
+                    "prefix": "entorno/",
+                    "children": [
+                      "extensions",
+                      "anaconda",
+                      "conda_env",
+                      "comandos_avanzados"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
           {
             "icon": "folder",
             "text": "Portfolio",
@@ -307,10 +334,10 @@ export const themeData = {
   "encrypt": {
     "config": {
       "/guide/encrypt.html": [
-        "$2a$10$9nlaAinsTahIFYSqRS5z/uW7DutJFcuReg6hNhLP2buF8hHTE48Vi"
+        "$2a$10$y7cyp5L7rMMb/AFArB0JOO0HTkop.mrQX7qBKcpTtqw/iP6ErGBvy"
       ],
       "/zh/guide/encrypt.html": [
-        "$2a$10$hWv1gtNHcIYruNt7hkqWG.de6YeXT3jkhXqxEBQFvUTulsGwpzdrG"
+        "$2a$10$qP2Ln7Kkp.AFZspZRc3kqecemq4.A5Lmj64Y7bmseeR7Va/uXY532"
       ]
     },
     "global": false

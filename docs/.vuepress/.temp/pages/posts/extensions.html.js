@@ -4,7 +4,7 @@ export const data = {
   "title": "Extensiones VSCode para analisis de datos",
   "lang": "en-US",
   "frontmatter": {
-    "icon": "home",
+    "icon": "python",
     "sticky": true,
     "category": [
       "Data science"
@@ -58,20 +58,22 @@ export const data = {
       "children": []
     }
   ],
-  "git": {
-    "createdTime": 1646552986000,
-    "updatedTime": 1646552986000,
-    "contributors": [
-      {
-        "name": "yahupc",
-        "email": "yahu39pc@gmail.com",
-        "commits": 1
-      }
-    ]
-  },
   "readingTime": {
     "minutes": 0.8,
     "words": 240
   },
   "filePathRelative": "posts/extensions.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

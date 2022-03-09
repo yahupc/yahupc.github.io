@@ -1,4 +1,5 @@
 <template><h1 id="instalando-anaconda" tabindex="-1"><a class="header-anchor" href="#instalando-anaconda" aria-hidden="true">#</a> Instalando Anaconda</h1>
+<p><img src="@source/../docs/.vuepress/public/datascience/anaconda.png" alt="Anaconda" loading="lazy"></p>
 <ul>
 <li>Nos dirigimos a la pagina oficial de <a href="https://www.anaconda.com/" target="_blank" rel="noopener noreferrer">Anaconda<ExternalLinkIcon/></a></li>
 <li>Descargamos el instalador dependiendo de nuestro sistema operativo.</li>
@@ -77,12 +78,4 @@
 <li>Ahora al abrir el mismo archivo con VSCode. Podremos ver que se ha creado un &quot;env conda&quot;.
 <img src="@source/../docs/.vuepress/public/datascience/anaconda2.png" alt="Anaconda en VSCode" loading="lazy"></li>
 </ul>
-<h2 id="ambientes-conda" tabindex="-1"><a class="header-anchor" href="#ambientes-conda" aria-hidden="true">#</a> Ambientes Conda</h2>
-<ul>
-<li>Revisar nuestros ambientes conda en nuestra computadora.</li>
-</ul>
-<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>conda <span class="token function">env</span> list
-
-<span class="token comment">#resultado (ejemplo)</span>
-base                  *  /home/yahupc/anaconda3
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div></template>
+</template>

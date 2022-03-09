@@ -93,15 +93,53 @@ export const searchIndex = [
   },
   {
     "title": "Instalando Anaconda",
+    "headers": [],
+    "path": "/posts/datascience/entorno/anaconda.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Comandos Avanzados",
+    "headers": [],
+    "path": "/posts/datascience/entorno/comandos_avanzados.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Crear , actualizar y eliminar ambientes y librerias",
     "headers": [
       {
         "level": 2,
-        "title": "Ambientes Conda",
-        "slug": "ambientes-conda",
+        "title": "Crear ambiente (env)",
+        "slug": "crear-ambiente-env",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Activar ambiente",
+        "slug": "activar-ambiente",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Actualizando paquetes del ambiente.",
+        "slug": "actualizando-paquetes-del-ambiente",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Eliminar librerias",
+        "slug": "eliminar-librerias",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Eliminar ambientes",
+        "slug": "eliminar-ambientes",
         "children": []
       }
     ],
-    "path": "/posts/anaconda.html",
+    "path": "/posts/datascience/entorno/conda_env.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -115,7 +153,7 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/posts/extensions.html",
+    "path": "/posts/datascience/entorno/extensions.html",
     "pathLocale": "/",
     "extraFields": []
   },
