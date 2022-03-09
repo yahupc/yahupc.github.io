@@ -1,0 +1,1 @@
+import{_ as a,o,a as e,b as s,d as n}from"./app.2d721608.js";const t={},d={id:"comandos-avanzados",tabindex:"-1"},c=s("a",{class:"header-anchor",href:"#comandos-avanzados","aria-hidden":"true"},"#",-1),r=n(" Comandos Avanzados"),_=[c,r];function h(i,m){return o(),e("h1",d,_)}var l=a(t,[["render",h]]);export{l as default};
