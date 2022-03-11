@@ -1,4 +1,4 @@
-<template><h1 id="crear-actualizar-y-eliminar-ambientes-y-librerias" tabindex="-1"><a class="header-anchor" href="#crear-actualizar-y-eliminar-ambientes-y-librerias" aria-hidden="true">#</a> Crear , actualizar y eliminar ambientes y librerias</h1>
+<template><h1 id="anaconda-creacion-clonacion-y-eliminacion-de-ambientes" tabindex="-1"><a class="header-anchor" href="#anaconda-creacion-clonacion-y-eliminacion-de-ambientes" aria-hidden="true">#</a> Anaconda: Creacion, clonacion y eliminacion de ambientes</h1>
 <ul>
 <li>Revisar nuestros ambientes conda en nuestra computadora.</li>
 </ul>

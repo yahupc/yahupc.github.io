@@ -1,7 +1,7 @@
 export const data = {
   "key": "v-39264676",
   "path": "/posts/datascience/entorno/conda_env.html",
-  "title": "Crear , actualizar y eliminar ambientes y librerias",
+  "title": "Anaconda: Creacion, clonacion y eliminacion de ambientes",
   "lang": "en-US",
   "frontmatter": {
     "icon": "python",
@@ -9,7 +9,7 @@ export const data = {
       "Data science"
     ],
     "star": true,
-    "summary": "Crear , actualizar y eliminar ambientes y librerias\rRevisar nuestros ambientes conda en nuestra computadora.; Crear ambiente (env) Activar ambiente\rEjecutamos el comando activate p",
+    "summary": "Anaconda: Creacion, clonacion y eliminacion de ambientes\rRevisar nuestros ambientes conda en nuestra computadora.; Crear ambiente (env) Activar ambiente\rEjecutamos el comando activ",
     "head": [
       [
         "meta",
@@ -22,7 +22,7 @@ export const data = {
         "meta",
         {
           "property": "og:title",
-          "content": "Crear , actualizar y eliminar ambientes y librerias"
+          "content": "Anaconda: Creacion, clonacion y eliminacion de ambientes"
         }
       ],
       [
@@ -81,14 +81,22 @@ export const data = {
       "children": []
     }
   ],
-  "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
-  },
   "readingTime": {
-    "minutes": 2.6,
-    "words": 779
+    "minutes": 2.59,
+    "words": 778
   },
   "filePathRelative": "posts/datascience/entorno/conda_env.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

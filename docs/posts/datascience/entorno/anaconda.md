@@ -4,7 +4,7 @@ category :
   - data science
 star: true
 ---
-# Instalando Anaconda
+# Instalacion de Anaconda
 ![Anaconda](/datascience/anaconda.png)
 
 + Nos dirigimos a la pagina oficial de [Anaconda](https://www.anaconda.com/)

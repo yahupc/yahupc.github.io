@@ -13,6 +13,8 @@ export const pagesData = {
   "v-74bc627b": () => import(/* webpackChunkName: "v-74bc627b" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/about/index.html.js").then(({ data }) => data),
   // path: /portfolio/
   "v-2e4c18c0": () => import(/* webpackChunkName: "v-2e4c18c0" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/portfolio/index.html.js").then(({ data }) => data),
+  // path: /posts/datascience/entorno/anaconda-mamba.html
+  "v-9b1a840e": () => import(/* webpackChunkName: "v-9b1a840e" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/datascience/entorno/anaconda-mamba.html.js").then(({ data }) => data),
   // path: /posts/datascience/entorno/anaconda.html
   "v-6bb3fea4": () => import(/* webpackChunkName: "v-6bb3fea4" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/datascience/entorno/anaconda.html.js").then(({ data }) => data),
   // path: /posts/datascience/entorno/comandos_avanzados.html

@@ -1,7 +1,7 @@
 export const data = {
   "key": "v-6bb3fea4",
   "path": "/posts/datascience/entorno/anaconda.html",
-  "title": "Instalando Anaconda",
+  "title": "Instalacion de Anaconda",
   "lang": "en-US",
   "frontmatter": {
     "icon": "python",
@@ -9,7 +9,7 @@ export const data = {
       "Data science"
     ],
     "star": true,
-    "summary": "Instalando Anaconda\rNos dirigimos a la pagina oficial de Anaconda; \rDescargamos el instalador dependiendo de nuestro sistema operativo.; \r\" Si estas en Linux podrias usar el siguie",
+    "summary": "Instalacion de Anaconda\rNos dirigimos a la pagina oficial de Anaconda; \rDescargamos el instalador dependiendo de nuestro sistema operativo.; \r\" Si estas en Linux podrias usar el si",
     "head": [
       [
         "meta",
@@ -22,7 +22,7 @@ export const data = {
         "meta",
         {
           "property": "og:title",
-          "content": "Instalando Anaconda"
+          "content": "Instalacion de Anaconda"
         }
       ],
       [
@@ -50,14 +50,22 @@ export const data = {
   },
   "excerpt": "",
   "headers": [],
-  "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
-  },
   "readingTime": {
     "minutes": 1.63,
-    "words": 489
+    "words": 490
   },
   "filePathRelative": "posts/datascience/entorno/anaconda.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

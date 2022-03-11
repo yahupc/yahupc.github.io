@@ -62,7 +62,8 @@ export const themeData = {
                       "extensions",
                       "anaconda",
                       "conda_env",
-                      "comandos_avanzados"
+                      "comandos_avanzados",
+                      "anaconda-mamba"
                     ]
                   }
                 ]
@@ -334,10 +335,10 @@ export const themeData = {
   "encrypt": {
     "config": {
       "/guide/encrypt.html": [
-        "$2a$10$y7cyp5L7rMMb/AFArB0JOO0HTkop.mrQX7qBKcpTtqw/iP6ErGBvy"
+        "$2a$10$TWeZnd65Yx7/Fg7PBjPvlur8tLUvwwT1E9sVtCLcPMY3/OHBUC3pK"
       ],
       "/zh/guide/encrypt.html": [
-        "$2a$10$qP2Ln7Kkp.AFZspZRc3kqecemq4.A5Lmj64Y7bmseeR7Va/uXY532"
+        "$2a$10$6t.3xWMVYNQmUqVTOCRhcOH1qqUZ11wYtrvlAdsZucb2cadFex9d2"
       ]
     },
     "global": false
@@ -359,4 +360,17 @@ export const themeData = {
     "purple": "#8e44ad"
   },
   "fullScreen": true
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateThemeData) {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ themeData }) => {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  })
 }

@@ -20,7 +20,7 @@ export const en = defineSidebarConfig({
               text: "Entorno",
               collapsable: true,
               prefix: "entorno/",
-              children:["extensions","anaconda","conda_env","comandos_avanzados"],
+              children:["extensions","anaconda","conda_env","comandos_avanzados", "anaconda-mamba"],
             },
           ]
         },

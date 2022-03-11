@@ -92,21 +92,54 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Instalando Anaconda",
+    "title": "Anaconda: Acelerar ambientes virtuales con Mamba",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Divide y vencerás.",
+        "slug": "divide-y-venceras",
+        "children": []
+      }
+    ],
+    "path": "/posts/datascience/entorno/anaconda-mamba.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Instalacion de Anaconda",
     "headers": [],
     "path": "/posts/datascience/entorno/anaconda.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Comandos Avanzados",
-    "headers": [],
+    "title": "Anaconda: Comandos Avanzados",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Revisiones",
+        "slug": "revisiones",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Exportando ambientes (env)",
+        "slug": "exportando-ambientes-env",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Restaurar un ambiente a partir de una archivo",
+        "slug": "restaurar-un-ambiente-a-partir-de-una-archivo",
+        "children": []
+      }
+    ],
     "path": "/posts/datascience/entorno/comandos_avanzados.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Crear , actualizar y eliminar ambientes y librerias",
+    "title": "Anaconda: Creacion, clonacion y eliminacion de ambientes",
     "headers": [
       {
         "level": 2,
@@ -221,3 +254,16 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

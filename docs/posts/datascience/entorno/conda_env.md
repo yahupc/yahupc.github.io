@@ -5,7 +5,7 @@ category :
 star: true
 ---
 
-# Crear , actualizar y eliminar ambientes y librerias
+# Anaconda: Creacion, clonacion y eliminacion de ambientes
 
 + Revisar nuestros ambientes conda en nuestra computadora.
 ```sh

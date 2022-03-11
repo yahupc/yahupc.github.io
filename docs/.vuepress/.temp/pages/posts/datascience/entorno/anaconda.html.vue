@@ -1,4 +1,4 @@
-<template><h1 id="instalando-anaconda" tabindex="-1"><a class="header-anchor" href="#instalando-anaconda" aria-hidden="true">#</a> Instalando Anaconda</h1>
+<template><h1 id="instalacion-de-anaconda" tabindex="-1"><a class="header-anchor" href="#instalacion-de-anaconda" aria-hidden="true">#</a> Instalacion de Anaconda</h1>
 <p><img src="/datascience/anaconda.png" alt="Anaconda" loading="lazy"></p>
 <ul>
 <li>Nos dirigimos a la pagina oficial de <a href="https://www.anaconda.com/" target="_blank" rel="noopener noreferrer">Anaconda<ExternalLinkIcon/></a></li>
