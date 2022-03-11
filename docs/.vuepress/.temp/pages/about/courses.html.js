@@ -5,7 +5,7 @@ export const data = {
   "lang": "en-US",
   "frontmatter": {
     "article": false,
-    "summary": "Cursos Lista de Curso de Desarrollo Web realizados en Platzi. Backend\rdiploma-intro-laravel-2020.; \rdiploma-jee.; \rdiploma-oop.; \rdiploma-java-se.; \rdiploma-java-persistencia.; \rdi",
+    "summary": "Cursos Lista de Curso de Desarrollo Web realizados en Platzi. Backend\rdiploma-python; \rdiploma-jupyter-notebook; \rdiploma-intro-laravel-2020.; \rdiploma-jee.; \rdiploma-oop.; \rdiplom",
     "head": [
       [
         "meta",
@@ -59,22 +59,20 @@ export const data = {
       "children": []
     }
   ],
+  "git": {
+    "createdTime": 1646417179000,
+    "updatedTime": 1646417179000,
+    "contributors": [
+      {
+        "name": "yahu39",
+        "email": "yahu39pc@gmail.com",
+        "commits": 1
+      }
+    ]
+  },
   "readingTime": {
-    "minutes": 0.71,
-    "words": 212
+    "minutes": 0.5,
+    "words": 151
   },
   "filePathRelative": "about/courses.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

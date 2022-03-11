@@ -58,22 +58,20 @@ export const data = {
       "children": []
     }
   ],
+  "git": {
+    "createdTime": 1646870357000,
+    "updatedTime": 1646870357000,
+    "contributors": [
+      {
+        "name": "yahu39",
+        "email": "yahu39pc@gmail.com",
+        "commits": 1
+      }
+    ]
+  },
   "readingTime": {
     "minutes": 0.78,
     "words": 235
   },
   "filePathRelative": "posts/datascience/entorno/extensions.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

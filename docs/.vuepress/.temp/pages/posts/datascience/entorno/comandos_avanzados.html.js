@@ -69,22 +69,20 @@ export const data = {
       "children": []
     }
   ],
+  "git": {
+    "createdTime": 1646870357000,
+    "updatedTime": 1646978653000,
+    "contributors": [
+      {
+        "name": "yahu39",
+        "email": "yahu39pc@gmail.com",
+        "commits": 2
+      }
+    ]
+  },
   "readingTime": {
     "minutes": 1.97,
     "words": 591
   },
   "filePathRelative": "posts/datascience/entorno/comandos_avanzados.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

@@ -4,35 +4,39 @@ article: false
 # Cursos
 Lista de Curso de Desarrollo Web realizados en Platzi.
 ## Backend
++ diploma-python
+![Python](/platzi/diploma-python.png)
++ diploma-jupyter-notebook
+![Jupyter](/platzi/diploma-jupyter-notebook.png)
 + diploma-intro-laravel-2020.
-![Laravel](../../docs/.vuepress/public/platzi/diploma-intro-laravel.png)
+![Laravel](/platzi/diploma-intro-laravel.png)
 + diploma-jee.
-![Java EE](../../docs/.vuepress/public/platzi/diploma-jee-2017.png)
+![Java EE](/platzi/diploma-jee-2017.png)
 + diploma-oop.
-![Java-OO](../../docs/.vuepress/public/platzi/diploma-java-oop.png)
+![Java-OO](/platzi/diploma-java-oop.png)
 + diploma-java-se.
-![Java-Basico](../../docs/.vuepress/public/platzi/diploma-java-basico.png)
+![Java-Basico](/platzi/diploma-java-basico.png)
 + diploma-java-persistencia.
-![Java-Java-Persistencia](../../docs/.vuepress/public/platzi/diploma-java-persistencia.png)
+![Java-Java-Persistencia](/platzi/diploma-java-persistencia.png)
 + diploma-entorno-desarrollo.
-![Entorno de Desarrollo](../../docs/.vuepress/public/platzi/diploma-prework.png)
+![Entorno de Desarrollo](/platzi/diploma-prework.png)
 + diploma-terminal.
-![Terminal](../../docs/.vuepress/public/platzi/diploma-terminal.png)
+![Terminal](/platzi/diploma-terminal.png)
 
 ## Frontend
 + diploma-vuejs2.
-![Vuejs 2](../../docs/.vuepress/public/platzi/diploma-vuejs2.png)
+![Vuejs 2](/platzi/diploma-vuejs2.png)
 + diploma-woocommerce.
-![Woo-commerce](../../docs/.vuepress/public/platzi/diploma-woocommerce.png)
+![Woo-commerce](/platzi/diploma-woocommerce.png)
 + diploma-ecmascript-6.
-![Ecmascript-6](../../docs/.vuepress/public/platzi/diploma-ecmascript-6.png)
+![Ecmascript-6](/platzi/diploma-ecmascript-6.png)
 + diploma-asincronismo-js.
-![Asincronismo Js](../../docs/.vuepress/public/platzi/diploma-asincronismo-js.png)
+![Asincronismo Js](/platzi/diploma-asincronismo-js.png)
 <!-- + diploma-javascript-navegador.
-![Js en el navegador](../../docs/.vuepress/public/platzi/) -->
+![Js en el navegador](/platzi/) -->
 + diploma-basico-javascript.
-![Javascript](../../docs/.vuepress/public/platzi/diploma-basico-javascript.png)
+![Javascript](/platzi/diploma-basico-javascript.png)
 + diploma-html-practico.
-![HTML-práctico](../../docs/.vuepress/public/platzi/diploma-html-practico.png)
+![HTML-práctico](/platzi/diploma-html-practico.png)
 + diploma-html-css.
-![HTML-CSS](../../docs/.vuepress/public/platzi/diploma-html-css.png)
+![HTML-CSS](/platzi/diploma-html-css.png)
