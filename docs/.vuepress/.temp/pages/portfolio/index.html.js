@@ -24,6 +24,11 @@ export const data = {
     ],
     "features": [
       {
+        "title": "BYV IESEMIN SAC ⚙️",
+        "details": "Tecnologias Usadas. Wordpress, Mysql. Pagina web del sector Minero y Metalurgico.",
+        "link": "https://byv.com.pe/"
+      },
+      {
         "title": "dondecomprar.app 🍔",
         "details": "Tecnologias Usadas. PHP, Laravel, Mysql. Aplicacion web en la que puedes adquirir cupones de descuento de las promociones de negocios de tu localidad.",
         "link": "https://aplicacion.dondecomprar.app/"
