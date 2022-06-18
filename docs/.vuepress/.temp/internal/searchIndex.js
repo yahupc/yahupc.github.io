@@ -92,101 +92,118 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Anaconda: Acelerar ambientes virtuales con Mamba",
+    "title": "Configuración de entorno para analisis de Datos",
     "headers": [
       {
         "level": 2,
-        "title": "Divide y vencerás.",
-        "slug": "divide-y-venceras",
+        "title": "1. Extensiones VSCode",
+        "slug": "_1-extensiones-vscode",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1. Notebook dentro de VSCode",
+            "slug": "_1-1-notebook-dentro-de-vscode",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. Instalacion de Anaconda",
+        "slug": "_2-instalacion-de-anaconda",
         "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. Anaconda: Creacion, clonacion y eliminacion de ambientes",
+        "slug": "_3-anaconda-creacion-clonacion-y-eliminacion-de-ambientes",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1. Crear ambiente (env)",
+            "slug": "_3-1-crear-ambiente-env",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2. Activar ambiente",
+            "slug": "_3-2-activar-ambiente",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.4. Actualizando paquetes del ambiente.",
+            "slug": "_3-4-actualizando-paquetes-del-ambiente",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.5. Eliminar librerias",
+            "slug": "_3-5-eliminar-librerias",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.6. Eliminar ambientes",
+            "slug": "_3-6-eliminar-ambientes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "4. Anaconda: Comandos Avanzados",
+        "slug": "_4-anaconda-comandos-avanzados",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1. Revisiones",
+            "slug": "_4-1-revisiones",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.2. Exportando ambientes (env)",
+            "slug": "_4-2-exportando-ambientes-env",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.3. Restaurar un ambiente a partir de una archivo",
+            "slug": "_4-3-restaurar-un-ambiente-a-partir-de-una-archivo",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "5. Anaconda: Acelerar ambientes virtuales con Mamba",
+        "slug": "_5-anaconda-acelerar-ambientes-virtuales-con-mamba",
+        "children": [
+          {
+            "level": 3,
+            "title": "Divide y vencerás.",
+            "slug": "divide-y-venceras",
+            "children": []
+          }
+        ]
       }
     ],
-    "path": "/posts/datascience/entorno/anaconda-mamba.html",
+    "path": "/posts/datascience/entorno.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Instalacion de Anaconda",
-    "headers": [],
-    "path": "/posts/datascience/entorno/anaconda.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Anaconda: Comandos Avanzados",
+    "title": "Comandos Utiles",
     "headers": [
       {
         "level": 2,
-        "title": "Revisiones",
-        "slug": "revisiones",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Exportando ambientes (env)",
-        "slug": "exportando-ambientes-env",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Restaurar un ambiente a partir de una archivo",
-        "slug": "restaurar-un-ambiente-a-partir-de-una-archivo",
+        "title": "Transferencia de archivos",
+        "slug": "transferencia-de-archivos",
         "children": []
       }
     ],
-    "path": "/posts/datascience/entorno/comandos_avanzados.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Anaconda: Creacion, clonacion y eliminacion de ambientes",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Crear ambiente (env)",
-        "slug": "crear-ambiente-env",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Activar ambiente",
-        "slug": "activar-ambiente",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Actualizando paquetes del ambiente.",
-        "slug": "actualizando-paquetes-del-ambiente",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Eliminar librerias",
-        "slug": "eliminar-librerias",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Eliminar ambientes",
-        "slug": "eliminar-ambientes",
-        "children": []
-      }
-    ],
-    "path": "/posts/datascience/entorno/conda_env.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Extensiones VSCode para analisis de datos",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Notebook dentro de VSCode",
-        "slug": "notebook-dentro-de-vscode",
-        "children": []
-      }
-    ],
-    "path": "/posts/datascience/entorno/extensions.html",
+    "path": "/posts/linux/utils-commands.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -250,6 +267,13 @@ export const searchIndex = [
     "title": "Data science Category",
     "headers": [],
     "path": "/category/data-science/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Linux Category",
+    "headers": [],
+    "path": "/category/linux/",
     "pathLocale": "/",
     "extraFields": []
   }

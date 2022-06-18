@@ -19,10 +19,18 @@ export const en = defineSidebarConfig({
               icon: "python",
               text: "Entorno",
               collapsable: true,
-              prefix: "entorno/",
-              children:["extensions","anaconda","conda_env","comandos_avanzados", "anaconda-mamba"],
+              //prefix: "entorno/",
+              children:["entorno"],
             },
           ]
+        },
+        {
+          icon: "linux",
+          text: "Linux",
+          prefix: "linux/",
+          //link: "linux/",
+          collapsable: true,
+          children:["utils-commands"]
         },
       ],
     },

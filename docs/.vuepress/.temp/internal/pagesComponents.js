@@ -15,16 +15,10 @@ export const pagesComponents = {
   "v-74bc627b": defineAsyncComponent(() => import(/* webpackChunkName: "v-74bc627b" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/about/index.html.vue")),
   // path: /portfolio/
   "v-2e4c18c0": defineAsyncComponent(() => import(/* webpackChunkName: "v-2e4c18c0" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/portfolio/index.html.vue")),
-  // path: /posts/datascience/entorno/anaconda-mamba.html
-  "v-9b1a840e": defineAsyncComponent(() => import(/* webpackChunkName: "v-9b1a840e" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/datascience/entorno/anaconda-mamba.html.vue")),
-  // path: /posts/datascience/entorno/anaconda.html
-  "v-6bb3fea4": defineAsyncComponent(() => import(/* webpackChunkName: "v-6bb3fea4" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/datascience/entorno/anaconda.html.vue")),
-  // path: /posts/datascience/entorno/comandos_avanzados.html
-  "v-42eaf6b5": defineAsyncComponent(() => import(/* webpackChunkName: "v-42eaf6b5" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/datascience/entorno/comandos_avanzados.html.vue")),
-  // path: /posts/datascience/entorno/conda_env.html
-  "v-39264676": defineAsyncComponent(() => import(/* webpackChunkName: "v-39264676" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/datascience/entorno/conda_env.html.vue")),
-  // path: /posts/datascience/entorno/extensions.html
-  "v-588beedb": defineAsyncComponent(() => import(/* webpackChunkName: "v-588beedb" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/datascience/entorno/extensions.html.vue")),
+  // path: /posts/datascience/entorno.html
+  "v-4cd2e454": defineAsyncComponent(() => import(/* webpackChunkName: "v-4cd2e454" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/datascience/entorno.html.vue")),
+  // path: /posts/linux/utils-commands.html
+  "v-740ae845": defineAsyncComponent(() => import(/* webpackChunkName: "v-740ae845" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/linux/utils-commands.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/404.html.vue")),
   // path: /category/
@@ -43,4 +37,6 @@ export const pagesComponents = {
   "v-01560935": defineAsyncComponent(() => import(/* webpackChunkName: "v-01560935" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/timeline/index.html.vue")),
   // path: /category/data-science/
   "v-ee521814": defineAsyncComponent(() => import(/* webpackChunkName: "v-ee521814" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/category/data-science/index.html.vue")),
+  // path: /category/linux/
+  "v-9c48d85a": defineAsyncComponent(() => import(/* webpackChunkName: "v-9c48d85a" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/category/linux/index.html.vue")),
 }

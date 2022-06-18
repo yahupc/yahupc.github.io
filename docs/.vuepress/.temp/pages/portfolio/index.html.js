@@ -93,12 +93,12 @@ export const data = {
   "headers": [],
   "git": {
     "createdTime": 1646417179000,
-    "updatedTime": 1646417179000,
+    "updatedTime": 1653776305000,
     "contributors": [
       {
         "name": "yahu39",
         "email": "yahu39pc@gmail.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },

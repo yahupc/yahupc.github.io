@@ -57,15 +57,19 @@ export const themeData = {
                     "icon": "python",
                     "text": "Entorno",
                     "collapsable": true,
-                    "prefix": "entorno/",
                     "children": [
-                      "extensions",
-                      "anaconda",
-                      "conda_env",
-                      "comandos_avanzados",
-                      "anaconda-mamba"
+                      "entorno"
                     ]
                   }
+                ]
+              },
+              {
+                "icon": "linux",
+                "text": "Linux",
+                "prefix": "linux/",
+                "collapsable": true,
+                "children": [
+                  "utils-commands"
                 ]
               }
             ]
@@ -335,10 +339,10 @@ export const themeData = {
   "encrypt": {
     "config": {
       "/guide/encrypt.html": [
-        "$2a$10$Du831QH5ZtW02TAd98p70uk5gdenht5HeA0Wy4V2Ik5rgUjIDcIlq"
+        "$2a$10$Dytt7O9tKvn97tHr5VuYz.TUTDbWfVUFTmcT9MYFYbUm35NVplLAa"
       ],
       "/zh/guide/encrypt.html": [
-        "$2a$10$UYuKmJ80GRN8PlcUs952IeJK8CT9loOKWA/My9KhKiORCx/70s8hq"
+        "$2a$10$.g8Fahm0DX5kgjVBNDrOUun89K7aT6PQ4vzyFED.msvWcdFardwnm"
       ]
     },
     "global": false

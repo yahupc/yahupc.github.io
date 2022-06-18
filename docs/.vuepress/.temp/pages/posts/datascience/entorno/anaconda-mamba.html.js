@@ -57,20 +57,22 @@ export const data = {
       "children": []
     }
   ],
-  "git": {
-    "createdTime": 1646978653000,
-    "updatedTime": 1646978653000,
-    "contributors": [
-      {
-        "name": "yahu39",
-        "email": "yahu39pc@gmail.com",
-        "commits": 1
-      }
-    ]
-  },
   "readingTime": {
     "minutes": 0.22,
     "words": 67
   },
   "filePathRelative": "posts/datascience/entorno/anaconda-mamba.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }
