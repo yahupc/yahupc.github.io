@@ -9,7 +9,6 @@ import clientAppEnhance7 from 'F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_module
 import clientAppEnhance8 from 'F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/vuepress-theme-hope/lib/client/module/sidebar/appEnhance.js'
 import clientAppEnhance9 from 'F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/vuepress-theme-hope/lib/client/module/blog/appEnhance.js'
 import clientAppEnhance10 from 'F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/@vuepress/plugin-search/lib/client/clientAppEnhance.js'
-import clientAppEnhance11 from 'F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/@vuepress/plugin-google-analytics/lib/client/clientAppEnhance.js'
 
 export const clientAppEnhances = [
   clientAppEnhance0,
@@ -23,5 +22,4 @@ export const clientAppEnhances = [
   clientAppEnhance8,
   clientAppEnhance9,
   clientAppEnhance10,
-  clientAppEnhance11,
 ]

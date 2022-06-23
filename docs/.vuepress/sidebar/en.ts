@@ -32,6 +32,14 @@ export const en = defineSidebarConfig({
           collapsable: true,
           children:["utils-commands"]
         },
+        {
+          icon: "mysql",
+          text: "Mysql",
+          prefix: "mysql/",
+          //link: "linux/",
+          collapsable: true,
+          children:["utils-commands"]
+        },
       ],
     },
     {

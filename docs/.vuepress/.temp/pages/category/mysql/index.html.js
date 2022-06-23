@@ -1,13 +1,14 @@
 export const data = {
-  "key": "v-01560935",
-  "path": "/timeline/",
-  "title": "Timeline",
+  "key": "v-9717cc36",
+  "path": "/category/mysql/",
+  "title": "Mysql Category",
   "lang": "en-US",
   "frontmatter": {
-    "title": "Timeline",
+    "title": "Mysql Category",
     "blog": {
-      "type": "type",
-      "key": "timeline"
+      "type": "category",
+      "name": "Mysql",
+      "key": "category"
     },
     "layout": "Blog",
     "summary": "",
@@ -16,14 +17,14 @@ export const data = {
         "meta",
         {
           "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/timeline/"
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/category/mysql/"
         }
       ],
       [
         "meta",
         {
           "property": "og:title",
-          "content": "Timeline"
+          "content": "Mysql Category"
         }
       ],
       [

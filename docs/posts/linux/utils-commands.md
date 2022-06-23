@@ -6,7 +6,7 @@ category :
   -  linux
 star: true
 ---
-# Comandos Utiles
+# Comandos Utiles en LINUX
 Cuando uses Linux , una de las maravillas que tiene este sistema operativo, es su terminal.  
 Puedes realizar practicamente lo que quieras con el.  
 Aqui te daré algunos comandos que utilizaras con frecuencia, en este sistema.

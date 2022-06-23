@@ -194,7 +194,7 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Comandos Utiles",
+    "title": "Comandos Utiles en LINUX",
     "headers": [
       {
         "level": 2,
@@ -204,6 +204,26 @@ export const searchIndex = [
       }
     ],
     "path": "/posts/linux/utils-commands.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Comandos Utiles en MYSQL",
+    "headers": [
+      {
+        "level": 3,
+        "title": "Cambiar la el tamaño de una columna",
+        "slug": "cambiar-la-el-tamano-de-una-columna",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "Eliminando duplicados:",
+        "slug": "eliminando-duplicados",
+        "children": []
+      }
+    ],
+    "path": "/posts/mysql/utils-commands.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -276,5 +296,25 @@ export const searchIndex = [
     "path": "/category/linux/",
     "pathLocale": "/",
     "extraFields": []
+  },
+  {
+    "title": "Mysql Category",
+    "headers": [],
+    "path": "/category/mysql/",
+    "pathLocale": "/",
+    "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

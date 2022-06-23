@@ -17,6 +17,8 @@ export const pagesData = {
   "v-4cd2e454": () => import(/* webpackChunkName: "v-4cd2e454" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/datascience/entorno.html.js").then(({ data }) => data),
   // path: /posts/linux/utils-commands.html
   "v-740ae845": () => import(/* webpackChunkName: "v-740ae845" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/linux/utils-commands.html.js").then(({ data }) => data),
+  // path: /posts/mysql/utils-commands.html
+  "v-7a09b4f3": () => import(/* webpackChunkName: "v-7a09b4f3" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/mysql/utils-commands.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
   // path: /category/
@@ -37,4 +39,6 @@ export const pagesData = {
   "v-ee521814": () => import(/* webpackChunkName: "v-ee521814" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/category/data-science/index.html.js").then(({ data }) => data),
   // path: /category/linux/
   "v-9c48d85a": () => import(/* webpackChunkName: "v-9c48d85a" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/category/linux/index.html.js").then(({ data }) => data),
+  // path: /category/mysql/
+  "v-9717cc36": () => import(/* webpackChunkName: "v-9717cc36" */"F:/PERSONAL-WEB/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/category/mysql/index.html.js").then(({ data }) => data),
 }

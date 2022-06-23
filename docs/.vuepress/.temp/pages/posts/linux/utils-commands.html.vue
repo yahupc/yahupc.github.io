@@ -1,4 +1,4 @@
-<template><h1 id="comandos-utiles" tabindex="-1"><a class="header-anchor" href="#comandos-utiles" aria-hidden="true">#</a> Comandos Utiles</h1>
+<template><h1 id="comandos-utiles-en-linux" tabindex="-1"><a class="header-anchor" href="#comandos-utiles-en-linux" aria-hidden="true">#</a> Comandos Utiles en LINUX</h1>
 <p>Cuando uses Linux , una de las maravillas que tiene este sistema operativo, es su terminal.<br>
 Puedes realizar practicamente lo que quieras con el.<br>
 Aqui te daré algunos comandos que utilizaras con frecuencia, en este sistema.</p>

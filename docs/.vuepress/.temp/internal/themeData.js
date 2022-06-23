@@ -71,6 +71,15 @@ export const themeData = {
                 "children": [
                   "utils-commands"
                 ]
+              },
+              {
+                "icon": "mysql",
+                "text": "Mysql",
+                "prefix": "mysql/",
+                "collapsable": true,
+                "children": [
+                  "utils-commands"
+                ]
               }
             ]
           },
@@ -339,10 +348,10 @@ export const themeData = {
   "encrypt": {
     "config": {
       "/guide/encrypt.html": [
-        "$2a$10$Dytt7O9tKvn97tHr5VuYz.TUTDbWfVUFTmcT9MYFYbUm35NVplLAa"
+        "$2a$10$hEtIE2qNLdFVP9UqXfp1me0uCpbey9VPimhvQttKU5ZclazFBe7G6"
       ],
       "/zh/guide/encrypt.html": [
-        "$2a$10$.g8Fahm0DX5kgjVBNDrOUun89K7aT6PQ4vzyFED.msvWcdFardwnm"
+        "$2a$10$V/yl13.Cvu0xdW79UZ0q/OhWEOOmMI.Ckq9xW8TLkQo.zrXbJ9rwW"
       ]
     },
     "global": false
@@ -364,4 +373,17 @@ export const themeData = {
     "purple": "#8e44ad"
   },
   "fullScreen": true
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateThemeData) {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ themeData }) => {
+    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
+  })
 }

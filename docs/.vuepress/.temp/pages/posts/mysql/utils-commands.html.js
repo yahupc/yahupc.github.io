@@ -1,36 +1,36 @@
 export const data = {
-  "key": "v-01560935",
-  "path": "/timeline/",
-  "title": "Timeline",
+  "key": "v-7a09b4f3",
+  "path": "/posts/mysql/utils-commands.html",
+  "title": "Comandos Utiles en MYSQL",
   "lang": "en-US",
   "frontmatter": {
-    "title": "Timeline",
-    "blog": {
-      "type": "type",
-      "key": "timeline"
-    },
-    "layout": "Blog",
-    "summary": "",
+    "icon": "code",
+    "sticky": true,
+    "category": [
+      "Mysql"
+    ],
+    "star": true,
+    "summary": "Comandos Utiles en MYSQL Cambiar la el tamaño de una columna Eliminando duplicados:",
     "head": [
       [
         "meta",
         {
           "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/timeline/"
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/posts/mysql/utils-commands.html"
         }
       ],
       [
         "meta",
         {
           "property": "og:title",
-          "content": "Timeline"
+          "content": "Comandos Utiles en MYSQL"
         }
       ],
       [
         "meta",
         {
           "property": "og:type",
-          "content": "website"
+          "content": "article"
         }
       ],
       [
@@ -50,12 +50,25 @@ export const data = {
     ]
   },
   "excerpt": "",
-  "headers": [],
+  "headers": [
+    {
+      "level": 3,
+      "title": "Cambiar la el tamaño de una columna",
+      "slug": "cambiar-la-el-tamano-de-una-columna",
+      "children": []
+    },
+    {
+      "level": 3,
+      "title": "Eliminando duplicados:",
+      "slug": "eliminando-duplicados",
+      "children": []
+    }
+  ],
   "readingTime": {
-    "minutes": 0,
-    "words": 0
+    "minutes": 0.14,
+    "words": 41
   },
-  "filePathRelative": null
+  "filePathRelative": "posts/mysql/utils-commands.md"
 }
 
 if (import.meta.webpackHot) {

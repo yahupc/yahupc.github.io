@@ -1,7 +1,7 @@
 export const data = {
   "key": "v-740ae845",
   "path": "/posts/linux/utils-commands.html",
-  "title": "Comandos Utiles",
+  "title": "Comandos Utiles en LINUX",
   "lang": "en-US",
   "frontmatter": {
     "icon": "code",
@@ -10,7 +10,7 @@ export const data = {
       "Linux"
     ],
     "star": true,
-    "summary": "Comandos Utiles Cuando uses Linux , una de las maravillas que tiene este sistema operativo, es su terminal. Puedes realizar practicamente lo que quieras con el. Aqui te daré alguno",
+    "summary": "Comandos Utiles en LINUX Cuando uses Linux , una de las maravillas que tiene este sistema operativo, es su terminal. Puedes realizar practicamente lo que quieras con el. Aqui te da",
     "head": [
       [
         "meta",
@@ -23,7 +23,7 @@ export const data = {
         "meta",
         {
           "property": "og:title",
-          "content": "Comandos Utiles"
+          "content": "Comandos Utiles en LINUX"
         }
       ],
       [
@@ -58,14 +58,22 @@ export const data = {
       "children": []
     }
   ],
-  "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
-  },
   "readingTime": {
     "minutes": 0.39,
-    "words": 116
+    "words": 118
   },
   "filePathRelative": "posts/linux/utils-commands.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }
