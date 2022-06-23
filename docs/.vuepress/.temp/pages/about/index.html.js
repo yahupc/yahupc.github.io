@@ -62,22 +62,20 @@ export const data = {
   },
   "excerpt": "",
   "headers": [],
+  "git": {
+    "createdTime": 1646417179000,
+    "updatedTime": 1646710927000,
+    "contributors": [
+      {
+        "name": "yahu39",
+        "email": "yahu39pc@gmail.com",
+        "commits": 2
+      }
+    ]
+  },
   "readingTime": {
     "minutes": 0.18,
     "words": 53
   },
   "filePathRelative": "about/README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

@@ -64,22 +64,20 @@ export const data = {
       "children": []
     }
   ],
+  "git": {
+    "createdTime": 1656006635000,
+    "updatedTime": 1656006635000,
+    "contributors": [
+      {
+        "name": "yahu39",
+        "email": "yahu39pc@gmail.com",
+        "commits": 1
+      }
+    ]
+  },
   "readingTime": {
     "minutes": 0.14,
     "words": 41
   },
   "filePathRelative": "posts/mysql/utils-commands.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }
