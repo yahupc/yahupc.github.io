@@ -10,7 +10,7 @@ export const data = {
       "Mysql"
     ],
     "star": true,
-    "summary": "Comandos Utiles en MYSQL Cambiar la el tamaño de una columna Eliminando duplicados:",
+    "summary": "Comandos Utiles en MYSQL Basicos: Insertar registros: Actualizar registros: Eliminar registros: Cambiar el tamaño de una columna Eliminando duplicados: Buscar y reemplazar valor en",
     "head": [
       [
         "meta",
@@ -52,16 +52,47 @@ export const data = {
   "excerpt": "",
   "headers": [
     {
-      "level": 3,
-      "title": "Cambiar la el tamaño de una columna",
-      "slug": "cambiar-la-el-tamano-de-una-columna",
-      "children": []
-    },
-    {
-      "level": 3,
-      "title": "Eliminando duplicados:",
-      "slug": "eliminando-duplicados",
-      "children": []
+      "level": 2,
+      "title": "Basicos:",
+      "slug": "basicos",
+      "children": [
+        {
+          "level": 3,
+          "title": "Insertar registros:",
+          "slug": "insertar-registros",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Actualizar registros:",
+          "slug": "actualizar-registros",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Eliminar registros:",
+          "slug": "eliminar-registros",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Cambiar el tamaño de una columna",
+          "slug": "cambiar-el-tamano-de-una-columna",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Eliminando duplicados:",
+          "slug": "eliminando-duplicados",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Buscar y reemplazar valor en columna",
+          "slug": "buscar-y-reemplazar-valor-en-columna",
+          "children": []
+        }
+      ]
     }
   ],
   "git": {
@@ -76,8 +107,8 @@ export const data = {
     ]
   },
   "readingTime": {
-    "minutes": 0.14,
-    "words": 41
+    "minutes": 0.28,
+    "words": 85
   },
   "filePathRelative": "posts/mysql/utils-commands.md"
 }
