@@ -1,16 +1,10 @@
 export const data = {
   "key": "v-2be07832",
   "path": "/posts/test.html",
-  "title": "Extensiones Vscode para analisis de datos",
+  "title": "Test",
   "lang": "en-US",
   "frontmatter": {
-    "icon": "home",
-    "sticky": true,
-    "category": [
-      "Analisis de datos"
-    ],
-    "star": true,
-    "summary": "Extensiones Vscode para analisis de datos Python; Magic Python; Material Icon Theme; Rainbow Brackets;",
+    "summary": "Test Esto es una prueba",
     "head": [
       [
         "meta",
@@ -23,7 +17,7 @@ export const data = {
         "meta",
         {
           "property": "og:title",
-          "content": "Extensiones Vscode para analisis de datos"
+          "content": "Test"
         }
       ],
       [
@@ -52,8 +46,8 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "readingTime": {
-    "minutes": 0.05,
-    "words": 14
+    "minutes": 0.02,
+    "words": 5
   },
   "filePathRelative": "posts/test.md"
 }

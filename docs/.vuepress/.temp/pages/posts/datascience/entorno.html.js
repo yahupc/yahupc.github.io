@@ -9,7 +9,7 @@ export const data = {
       "Data science"
     ],
     "star": true,
-    "summary": "Configuración de entorno para analisis de Datos 1. Extensiones VSCode\rPython; \rMagic Python; \rMaterial Icon Theme; \rRainbow Brackets; \rRemote Development; 1.1. Notebook dentro de V",
+    "summary": "Configuración de entorno para analisis de Datos 1. Extensiones VSCode Python; Magic Python; Material Icon Theme; Rainbow Brackets; Remote Development; 1.1. Notebook dentro de VSCod",
     "head": [
       [
         "meta",
@@ -145,20 +145,22 @@ export const data = {
       ]
     }
   ],
-  "git": {
-    "createdTime": 1655535115000,
-    "updatedTime": 1655535115000,
-    "contributors": [
-      {
-        "name": "yahu39",
-        "email": "yahu39pc@gmail.com",
-        "commits": 1
-      }
-    ]
-  },
   "readingTime": {
     "minutes": 7.26,
     "words": 2179
   },
   "filePathRelative": "posts/datascience/entorno.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

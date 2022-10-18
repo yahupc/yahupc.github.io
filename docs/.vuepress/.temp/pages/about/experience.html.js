@@ -5,7 +5,7 @@ export const data = {
   "lang": "en-US",
   "frontmatter": {
     "article": false,
-    "summary": "Experiencia Asis Technology Partners, San Isidro - Lima:\rDiciembre 2021 - Actualidad; \rPHP | Python Backend Developer ; Kalp Perú S.A.C, Chiclayo :\rOctubre 2020 – Noviembre 2021; \r",
+    "summary": "Experiencia Asis Technology Partners, San Isidro - Lima: Diciembre 2021 - Actualidad; PHP | Python Backend Developer ; Kalp Perú S.A.C, Chiclayo : Octubre 2020 – Noviembre 2021; PH",
     "head": [
       [
         "meta",
@@ -83,20 +83,22 @@ export const data = {
       "children": []
     }
   ],
-  "git": {
-    "createdTime": 1646417179000,
-    "updatedTime": 1646417179000,
-    "contributors": [
-      {
-        "name": "yahu39",
-        "email": "yahu39pc@gmail.com",
-        "commits": 1
-      }
-    ]
-  },
   "readingTime": {
     "minutes": 0.3,
     "words": 91
   },
   "filePathRelative": "about/experience.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

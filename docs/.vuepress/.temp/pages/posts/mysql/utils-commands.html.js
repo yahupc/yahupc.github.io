@@ -10,7 +10,7 @@ export const data = {
       "Mysql"
     ],
     "star": true,
-    "summary": "Comandos Utiles en MYSQL Cambiar la el tamaño de una columna Eliminando duplicados:",
+    "summary": "Comandos Utiles en MYSQL Restaurar base de datos Primero creamos nuestra base de datos. Puede ser por linea de comandos o por alguna interfaz.; Luego restauramos nuestra copia de s",
     "head": [
       [
         "meta",
@@ -53,6 +53,12 @@ export const data = {
   "headers": [
     {
       "level": 3,
+      "title": "Restaurar base de datos",
+      "slug": "restaurar-base-de-datos",
+      "children": []
+    },
+    {
+      "level": 3,
       "title": "Cambiar la el tamaño de una columna",
       "slug": "cambiar-la-el-tamano-de-una-columna",
       "children": []
@@ -64,20 +70,22 @@ export const data = {
       "children": []
     }
   ],
-  "git": {
-    "createdTime": 1656006635000,
-    "updatedTime": 1656006635000,
-    "contributors": [
-      {
-        "name": "yahu39",
-        "email": "yahu39pc@gmail.com",
-        "commits": 1
-      }
-    ]
-  },
   "readingTime": {
-    "minutes": 0.14,
-    "words": 41
+    "minutes": 0.24,
+    "words": 73
   },
   "filePathRelative": "posts/mysql/utils-commands.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

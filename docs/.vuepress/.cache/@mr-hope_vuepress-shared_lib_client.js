@@ -67,7 +67,7 @@ init_define_EXTERNAL_LINK_ICON_LOCALES();
 init_define_SEARCH_HOT_KEYS();
 init_define_SEARCH_LOCALES();
 import { useRouteLocale as r, usePageData as i } from "@vuepress/client";
-import "F:/PERSONAL-WEB/pabloyafac.com-vth_v2/node_modules/@mr-hope/vuepress-shared/lib/client/styles/message.scss";
+import "/home/yahupc/Documents/Pablo/Projects/Personal-Web_vue/pabloyafac.com-vth_v2/node_modules/@mr-hope/vuepress-shared/lib/client/styles/message.scss";
 var s = (t) => `${t.charAt(0).toUpperCase()}${t.slice(1)}`;
 var o = (t) => `${t.charAt(0).toUpperCase()}${t.slice(1).toLowerCase()}`;
 var a;

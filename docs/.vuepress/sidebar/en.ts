@@ -30,7 +30,7 @@ export const en = defineSidebarConfig({
           prefix: "linux/",
           //link: "linux/",
           collapsable: true,
-          children:["utils-commands"]
+          children:["utils-commands","comprimir"]
         },
         {
           icon: "mysql",

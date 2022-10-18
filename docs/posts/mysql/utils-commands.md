@@ -8,8 +8,14 @@ star: true
 ---
 # Comandos Utiles en MYSQL
 
-### Cambiar la el tamaño de una columna
+### Restaurar base de datos
++ Primero creamos nuestra base de datos. Puede ser por linea de comandos o por alguna interfaz.
++ Luego restauramos nuestra copia de seguridad.
 ```mysql
+mysql -u usuario -p name_database < respaldo.sql
+```
+### Cambiar la el tamaño de una columna
+```
 ALTER TABLE name_table MODIFY name_column VARCHAR(30);
 ```
 

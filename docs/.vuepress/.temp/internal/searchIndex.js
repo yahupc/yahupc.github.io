@@ -7,6 +7,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "About",
+    "headers": [],
+    "path": "/about/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Certificaciones",
     "headers": [],
     "path": "/about/certifications.html",
@@ -74,13 +81,6 @@ export const searchIndex = [
       }
     ],
     "path": "/about/experience.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "About",
-    "headers": [],
-    "path": "/about/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -194,6 +194,26 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Diferentes formas de Compresion de Archivos",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Comprimir y descomprimir .tar (tar)",
+        "slug": "comprimir-y-descomprimir-tar-tar",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Comprimir y descomprimir .tar.gz .tar.z .tgz (tar con gzip)",
+        "slug": "comprimir-y-descomprimir-tar-gz-tar-z-tgz-tar-con-gzip",
+        "children": []
+      }
+    ],
+    "path": "/posts/linux/comprimir.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Comandos Utiles en LINUX",
     "headers": [
       {
@@ -212,6 +232,12 @@ export const searchIndex = [
     "headers": [
       {
         "level": 3,
+        "title": "Restaurar base de datos",
+        "slug": "restaurar-base-de-datos",
+        "children": []
+      },
+      {
+        "level": 3,
         "title": "Cambiar la el tamaño de una columna",
         "slug": "cambiar-la-el-tamano-de-una-columna",
         "children": []
@@ -224,6 +250,27 @@ export const searchIndex = [
       }
     ],
     "path": "/posts/mysql/utils-commands.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Commands VIM",
+    "headers": [],
+    "path": "/posts/vim/commands.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Instalation VIM",
+    "headers": [],
+    "path": "/posts/vim/instalation.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "NVim",
+    "headers": [],
+    "path": "/posts/vim/nvim.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -303,5 +350,25 @@ export const searchIndex = [
     "path": "/category/mysql/",
     "pathLocale": "/",
     "extraFields": []
+  },
+  {
+    "title": "Vim Category",
+    "headers": [],
+    "path": "/category/vim/",
+    "pathLocale": "/",
+    "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

@@ -5,7 +5,7 @@ export const data = {
   "lang": "en-US",
   "frontmatter": {
     "article": false,
-    "summary": "Certificaciones\rDevOps Essentials Professional Certificate, Certiprof.; \rScrum Foundation Professional Certificate, Certiprof.;",
+    "summary": "Certificaciones DevOps Essentials Professional Certificate, Certiprof.; Scrum Foundation Professional Certificate, Certiprof.;",
     "head": [
       [
         "meta",
@@ -46,20 +46,22 @@ export const data = {
   },
   "excerpt": "",
   "headers": [],
-  "git": {
-    "createdTime": 1646417179000,
-    "updatedTime": 1647030759000,
-    "contributors": [
-      {
-        "name": "yahu39",
-        "email": "yahu39pc@gmail.com",
-        "commits": 2
-      }
-    ]
-  },
   "readingTime": {
     "minutes": 0.07,
     "words": 21
   },
   "filePathRelative": "about/certifications.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }
