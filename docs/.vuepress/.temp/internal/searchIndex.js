@@ -231,6 +231,7 @@ export const searchIndex = [
     "title": "Comandos Utiles en MYSQL",
     "headers": [
       {
+<<<<<<< HEAD
         "level": 3,
         "title": "Restaurar base de datos",
         "slug": "restaurar-base-de-datos",
@@ -247,6 +248,49 @@ export const searchIndex = [
         "title": "Eliminando duplicados:",
         "slug": "eliminando-duplicados",
         "children": []
+=======
+        "level": 2,
+        "title": "Basicos:",
+        "slug": "basicos",
+        "children": [
+          {
+            "level": 3,
+            "title": "Insertar registros:",
+            "slug": "insertar-registros",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Actualizar registros:",
+            "slug": "actualizar-registros",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Eliminar registros:",
+            "slug": "eliminar-registros",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Cambiar el tamaño de una columna",
+            "slug": "cambiar-el-tamano-de-una-columna",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Eliminando duplicados:",
+            "slug": "eliminando-duplicados",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Buscar y reemplazar valor en columna",
+            "slug": "buscar-y-reemplazar-valor-en-columna",
+            "children": []
+          }
+        ]
+>>>>>>> e4b6748fdc6be78d0a91d369907ac22fd6c64c48
       }
     ],
     "path": "/posts/mysql/utils-commands.html",

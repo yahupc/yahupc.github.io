@@ -19,8 +19,6 @@ export const pagesData = {
   "v-687320b9": () => import(/* webpackChunkName: "v-687320b9" */"/home/yahupc/Documents/Pablo/Projects/Personal-Web_vue/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/linux/comprimir.html.js").then(({ data }) => data),
   // path: /posts/linux/utils-commands.html
   "v-740ae845": () => import(/* webpackChunkName: "v-740ae845" */"/home/yahupc/Documents/Pablo/Projects/Personal-Web_vue/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/linux/utils-commands.html.js").then(({ data }) => data),
-  // path: /posts/mysql/utils-commands.html
-  "v-7a09b4f3": () => import(/* webpackChunkName: "v-7a09b4f3" */"/home/yahupc/Documents/Pablo/Projects/Personal-Web_vue/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/mysql/utils-commands.html.js").then(({ data }) => data),
   // path: /posts/vim/commands.html
   "v-8b329072": () => import(/* webpackChunkName: "v-8b329072" */"/home/yahupc/Documents/Pablo/Projects/Personal-Web_vue/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/vim/commands.html.js").then(({ data }) => data),
   // path: /posts/vim/instalation.html
@@ -51,4 +49,6 @@ export const pagesData = {
   "v-9717cc36": () => import(/* webpackChunkName: "v-9717cc36" */"/home/yahupc/Documents/Pablo/Projects/Personal-Web_vue/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/category/mysql/index.html.js").then(({ data }) => data),
   // path: /category/vim/
   "v-65f6a76d": () => import(/* webpackChunkName: "v-65f6a76d" */"/home/yahupc/Documents/Pablo/Projects/Personal-Web_vue/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/category/vim/index.html.js").then(({ data }) => data),
+  // path: /posts/mysql/utils-commands.html
+  "v-7a09b4f3": () => import(/* webpackChunkName: "v-7a09b4f3" */"/home/yahupc/Documents/Pablo/Projects/Personal-Web_vue/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/mysql/utils-commands.html.js").then(({ data }) => data),
 }

@@ -10,7 +10,7 @@ export const data = {
       "Mysql"
     ],
     "star": true,
-    "summary": "Comandos Utiles en MYSQL Restaurar base de datos Primero creamos nuestra base de datos. Puede ser por linea de comandos o por alguna interfaz.; Luego restauramos nuestra copia de s",
+    "summary": "Comandos Utiles en MYSQL <<<<<<< HEAD Restaurar base de datos Primero creamos nuestra base de datos. Puede ser por linea de comandos o por alguna interfaz.; Luego restauramos nuest",
     "head": [
       [
         "meta",
@@ -58,21 +58,58 @@ export const data = {
       "children": []
     },
     {
-      "level": 3,
-      "title": "Cambiar la el tamaño de una columna",
-      "slug": "cambiar-la-el-tamano-de-una-columna",
-      "children": []
-    },
-    {
-      "level": 3,
-      "title": "Eliminando duplicados:",
-      "slug": "eliminando-duplicados",
-      "children": []
+      "level": 2,
+      "title": "Basicos:",
+      "slug": "basicos",
+      "children": [
+        {
+          "level": 3,
+          "title": "Insertar registros:",
+          "slug": "insertar-registros",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Actualizar registros:",
+          "slug": "actualizar-registros",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Eliminar registros:",
+          "slug": "eliminar-registros",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Cambiar el tamaño de una columna",
+          "slug": "cambiar-el-tamano-de-una-columna",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Cambiar la el tamaño de una columna",
+          "slug": "cambiar-la-el-tamano-de-una-columna",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Eliminando duplicados:",
+          "slug": "eliminando-duplicados",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Buscar y reemplazar valor en columna",
+          "slug": "buscar-y-reemplazar-valor-en-columna",
+          "children": []
+        }
+      ]
     }
   ],
   "readingTime": {
-    "minutes": 0.24,
-    "words": 73
+    "minutes": 0.42,
+    "words": 126
   },
   "filePathRelative": "posts/mysql/utils-commands.md"
 }

@@ -21,8 +21,6 @@ export const pagesComponents = {
   "v-687320b9": defineAsyncComponent(() => import(/* webpackChunkName: "v-687320b9" */"/home/yahupc/Documents/Pablo/Projects/Personal-Web_vue/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/linux/comprimir.html.vue")),
   // path: /posts/linux/utils-commands.html
   "v-740ae845": defineAsyncComponent(() => import(/* webpackChunkName: "v-740ae845" */"/home/yahupc/Documents/Pablo/Projects/Personal-Web_vue/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/linux/utils-commands.html.vue")),
-  // path: /posts/mysql/utils-commands.html
-  "v-7a09b4f3": defineAsyncComponent(() => import(/* webpackChunkName: "v-7a09b4f3" */"/home/yahupc/Documents/Pablo/Projects/Personal-Web_vue/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/mysql/utils-commands.html.vue")),
   // path: /posts/vim/commands.html
   "v-8b329072": defineAsyncComponent(() => import(/* webpackChunkName: "v-8b329072" */"/home/yahupc/Documents/Pablo/Projects/Personal-Web_vue/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/vim/commands.html.vue")),
   // path: /posts/vim/instalation.html
@@ -53,4 +51,6 @@ export const pagesComponents = {
   "v-9717cc36": defineAsyncComponent(() => import(/* webpackChunkName: "v-9717cc36" */"/home/yahupc/Documents/Pablo/Projects/Personal-Web_vue/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/category/mysql/index.html.vue")),
   // path: /category/vim/
   "v-65f6a76d": defineAsyncComponent(() => import(/* webpackChunkName: "v-65f6a76d" */"/home/yahupc/Documents/Pablo/Projects/Personal-Web_vue/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/category/vim/index.html.vue")),
+  // path: /posts/mysql/utils-commands.html
+  "v-7a09b4f3": defineAsyncComponent(() => import(/* webpackChunkName: "v-7a09b4f3" */"/home/yahupc/Documents/Pablo/Projects/Personal-Web_vue/pabloyafac.com-vth_v2/docs/.vuepress/.temp/pages/posts/mysql/utils-commands.html.vue")),
 }

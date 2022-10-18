@@ -59,8 +59,8 @@ export const data = {
     }
   ],
   "readingTime": {
-    "minutes": 0.39,
-    "words": 118
+    "minutes": 0.72,
+    "words": 215
   },
   "filePathRelative": "posts/linux/utils-commands.md"
 }
