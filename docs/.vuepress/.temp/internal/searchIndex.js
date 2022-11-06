@@ -207,6 +207,30 @@ export const searchIndex = [
         "title": "Comprimir y descomprimir .tar.gz .tar.z .tgz (tar con gzip)",
         "slug": "comprimir-y-descomprimir-tar-gz-tar-z-tgz-tar-con-gzip",
         "children": []
+      },
+      {
+        "level": 2,
+        "title": "Comprimir y descomprimir .gz (gzip)",
+        "slug": "comprimir-y-descomprimir-gz-gzip",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Comprimir y descomprimir .bz2 (bzip2)",
+        "slug": "comprimir-y-descomprimir-bz2-bzip2",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Comprimir y descomprimir .zip (zip)",
+        "slug": "comprimir-y-descomprimir-zip-zip",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Comprimir y descomprimir .rar (rar)",
+        "slug": "comprimir-y-descomprimir-rar-rar",
+        "children": []
       }
     ],
     "path": "/posts/linux/comprimir.html",
@@ -267,12 +291,6 @@ export const searchIndex = [
           },
           {
             "level": 3,
-            "title": "Cambiar la el tamaño de una columna",
-            "slug": "cambiar-la-el-tamano-de-una-columna",
-            "children": []
-          },
-          {
-            "level": 3,
             "title": "Eliminando duplicados:",
             "slug": "eliminando-duplicados",
             "children": []
@@ -281,6 +299,12 @@ export const searchIndex = [
             "level": 3,
             "title": "Buscar y reemplazar valor en columna",
             "slug": "buscar-y-reemplazar-valor-en-columna",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Saber el tamaño de nuestra BD en MB:",
+            "slug": "saber-el-tamano-de-nuestra-bd-en-mb",
             "children": []
           }
         ]

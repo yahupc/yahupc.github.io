@@ -4,7 +4,7 @@ export const data = {
   "title": "Compresión de Archivos",
   "lang": "en-US",
   "frontmatter": {
-    "summary": "Compresión de Archivos Comprimir y descomprimir .tar (tar) Para comprimir archivos .tar, debemos utilizar:; tar cvf archivo.tar /archivo/carpeta/* Para descomprimir archivos .tar, ",
+    "summary": "Compresión de Archivos Comprimir y descomprimir .tar (tar) Para comprimir archivos .tar, debemos utilizar: ; tar cvf archivo.tar /archivo/carpeta/* Para descomprimir archivos .tar,",
     "head": [
       [
         "meta",
@@ -56,6 +56,30 @@ export const data = {
       "title": "Comprimir y descomprimir .tar.gz .tar.z .tgz (tar con gzip)",
       "slug": "comprimir-y-descomprimir-tar-gz-tar-z-tgz-tar-con-gzip",
       "children": []
+    },
+    {
+      "level": 2,
+      "title": "Comprimir y descomprimir .gz (gzip)",
+      "slug": "comprimir-y-descomprimir-gz-gzip",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Comprimir y descomprimir .bz2 (bzip2)",
+      "slug": "comprimir-y-descomprimir-bz2-bzip2",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Comprimir y descomprimir .zip (zip)",
+      "slug": "comprimir-y-descomprimir-zip-zip",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Comprimir y descomprimir .rar (rar)",
+      "slug": "comprimir-y-descomprimir-rar-rar",
+      "children": []
     }
   ],
   "git": {
@@ -70,8 +94,8 @@ export const data = {
     ]
   },
   "readingTime": {
-    "minutes": 0.64,
-    "words": 192
+    "minutes": 0.61,
+    "words": 184
   },
   "filePathRelative": "posts/linux/comprimir.md"
 }

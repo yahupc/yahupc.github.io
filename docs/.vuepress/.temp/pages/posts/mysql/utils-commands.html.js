@@ -10,7 +10,7 @@ export const data = {
       "Mysql"
     ],
     "star": true,
-    "summary": "Comandos Utiles en MYSQL <<<<<<< HEAD Restaurar base de datos Primero creamos nuestra base de datos. Puede ser por linea de comandos o por alguna interfaz.; Luego restauramos nuest",
+    "summary": "Comandos Utiles en MYSQL Restaurar base de datos Primero creamos nuestra base de datos. Puede ser por linea de comandos o por alguna interfaz.; Luego restauramos nuestra copia de s",
     "head": [
       [
         "meta",
@@ -88,12 +88,6 @@ export const data = {
         },
         {
           "level": 3,
-          "title": "Cambiar la el tamaño de una columna",
-          "slug": "cambiar-la-el-tamano-de-una-columna",
-          "children": []
-        },
-        {
-          "level": 3,
           "title": "Eliminando duplicados:",
           "slug": "eliminando-duplicados",
           "children": []
@@ -102,6 +96,12 @@ export const data = {
           "level": 3,
           "title": "Buscar y reemplazar valor en columna",
           "slug": "buscar-y-reemplazar-valor-en-columna",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Saber el tamaño de nuestra BD en MB:",
+          "slug": "saber-el-tamano-de-nuestra-bd-en-mb",
           "children": []
         }
       ]
@@ -119,8 +119,8 @@ export const data = {
     ]
   },
   "readingTime": {
-    "minutes": 0.42,
-    "words": 126
+    "minutes": 0.53,
+    "words": 159
   },
   "filePathRelative": "posts/mysql/utils-commands.md"
 }

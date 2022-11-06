@@ -45,13 +45,6 @@ export const data = {
           "name": "twitter:card",
           "content": "summary_large_image"
         }
-      ],
-      [
-        "meta",
-        {
-          "property": "article:published_time",
-          "content": "2022-05-05T05:00:00.000Z"
-        }
       ]
     ]
   },

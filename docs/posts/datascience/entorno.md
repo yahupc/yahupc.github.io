@@ -1,6 +1,5 @@
 ---
 icon: python
-date: 
 category :
   -  data science
 star: true

@@ -1,6 +1,5 @@
 ---
 icon: code
-date: 
 sticky: true
 category :
   -  mysql
@@ -8,11 +7,13 @@ star: true
 ---
 # Comandos Utiles en MYSQL
 
-<<<<<<< HEAD
 ### Restaurar base de datos
 + Primero creamos nuestra base de datos. Puede ser por linea de comandos o por alguna interfaz.
 + Luego restauramos nuestra copia de seguridad.
-=======
+```mysql
+mysql -u usuario -p name_database < respaldo.sql
+```
+
 ## Basicos:
 
 ### Insertar registros:
@@ -34,11 +35,6 @@ DELETE FROM table_name
 WHERE ID = value_id;
 ```
 ### Cambiar el tamaño de una columna
->>>>>>> e4b6748fdc6be78d0a91d369907ac22fd6c64c48
-```mysql
-mysql -u usuario -p name_database < respaldo.sql
-```
-### Cambiar la el tamaño de una columna
 ```
 ALTER TABLE name_table MODIFY name_column VARCHAR(30);
 ```
@@ -53,4 +49,9 @@ GROUP BY n.date, n.name) x);
 ```
 UPDATE table_name
 SET field_name = replace(same_field_name, unwanted_text, wanted_text)
+```
+
+### Saber el tamaño de nuestra BD en MB:
+```
+SELECT table_schema "database", sum(data_length + index_length)/1024/1024 "size in MB" FROM information_schema.TABLES GROUP BY table_schema;SELECT table_schema "database", sum(data_length + index_length)/1024/1024 "size in MB" FROM information_schema.TABLES GROUP BY table_schema;
 ```

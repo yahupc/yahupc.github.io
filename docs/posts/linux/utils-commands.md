@@ -1,6 +1,5 @@
 ---
 icon: code
-date: 
 sticky: true
 category :
   -  linux
