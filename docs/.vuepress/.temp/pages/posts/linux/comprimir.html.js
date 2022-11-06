@@ -58,22 +58,20 @@ export const data = {
       "children": []
     }
   ],
+  "git": {
+    "createdTime": 1666068807000,
+    "updatedTime": 1666068807000,
+    "contributors": [
+      {
+        "name": "yahu39",
+        "email": "yahu39pc@gmail.com",
+        "commits": 1
+      }
+    ]
+  },
   "readingTime": {
     "minutes": 0.64,
     "words": 192
   },
   "filePathRelative": "posts/linux/comprimir.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

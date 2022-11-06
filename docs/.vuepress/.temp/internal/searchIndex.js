@@ -194,7 +194,7 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Diferentes formas de Compresion de Archivos",
+    "title": "Compresión de Archivos",
     "headers": [
       {
         "level": 2,
@@ -231,24 +231,12 @@ export const searchIndex = [
     "title": "Comandos Utiles en MYSQL",
     "headers": [
       {
-<<<<<<< HEAD
         "level": 3,
         "title": "Restaurar base de datos",
         "slug": "restaurar-base-de-datos",
         "children": []
       },
       {
-        "level": 3,
-        "title": "Cambiar la el tamaño de una columna",
-        "slug": "cambiar-la-el-tamano-de-una-columna",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "Eliminando duplicados:",
-        "slug": "eliminando-duplicados",
-        "children": []
-=======
         "level": 2,
         "title": "Basicos:",
         "slug": "basicos",
@@ -279,6 +267,12 @@ export const searchIndex = [
           },
           {
             "level": 3,
+            "title": "Cambiar la el tamaño de una columna",
+            "slug": "cambiar-la-el-tamano-de-una-columna",
+            "children": []
+          },
+          {
+            "level": 3,
             "title": "Eliminando duplicados:",
             "slug": "eliminando-duplicados",
             "children": []
@@ -290,7 +284,6 @@ export const searchIndex = [
             "children": []
           }
         ]
->>>>>>> e4b6748fdc6be78d0a91d369907ac22fd6c64c48
       }
     ],
     "path": "/posts/mysql/utils-commands.html",
@@ -403,16 +396,3 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}

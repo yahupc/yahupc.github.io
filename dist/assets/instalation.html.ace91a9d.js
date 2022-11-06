@@ -1,0 +1,1 @@
+import{_ as e,o as t,a,b as o,d as s}from"./app.5794bb3e.js";const n={},i={id:"instalation-vim",tabindex:"-1"},c=o("a",{class:"header-anchor",href:"#instalation-vim","aria-hidden":"true"},"#",-1),r=s(" Instalation VIM"),_=[c,r];function d(h,l){return t(),a("h1",i,_)}var m=e(n,[["render",d]]);export{m as default};
