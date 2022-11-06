@@ -52,12 +52,12 @@ export const data = {
   "headers": [],
   "git": {
     "createdTime": 1666068807000,
-    "updatedTime": 1666068807000,
+    "updatedTime": 1667714524000,
     "contributors": [
       {
         "name": "yahu39",
         "email": "yahu39pc@gmail.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },

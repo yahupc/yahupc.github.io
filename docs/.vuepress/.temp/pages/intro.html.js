@@ -61,7 +61,7 @@ export const data = {
   },
   "readingTime": {
     "minutes": 0.24,
-    "words": 72
+    "words": 73
   },
   "filePathRelative": "intro.md"
 }

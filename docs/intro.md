@@ -18,4 +18,4 @@ Esperando que el contenido que suba, pueda ayudarles en su desarrollo. De la mis
 Happy Coding!
 
 Atte.
-Pablo Yafac Huamanchumo.
+Pablo César Yafac Huamanchumo.

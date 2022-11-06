@@ -5,5 +5,5 @@ Esperando que el contenido que suba, pueda ayudarles en su desarrollo. De la mis
 <p>&quot;Compartir es aprender dos veces!&quot;</p>
 <p>Happy Coding!</p>
 <p>Atte.
-Pablo Yafac Huamanchumo.</p>
+Pablo César Yafac Huamanchumo.</p>
 </template>
