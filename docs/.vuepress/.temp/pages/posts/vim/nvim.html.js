@@ -46,8 +46,8 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": 1666068807000,
-    "updatedTime": 1666068807000,
+    "createdTime": 1667723316000,
+    "updatedTime": 1667723316000,
     "contributors": [
       {
         "name": "yahu39",

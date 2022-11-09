@@ -255,12 +255,6 @@ export const searchIndex = [
     "title": "Comandos Utiles en MYSQL",
     "headers": [
       {
-        "level": 3,
-        "title": "Restaurar base de datos",
-        "slug": "restaurar-base-de-datos",
-        "children": []
-      },
-      {
         "level": 2,
         "title": "Basicos:",
         "slug": "basicos",
@@ -305,6 +299,24 @@ export const searchIndex = [
             "level": 3,
             "title": "Saber el tamaño de nuestra BD en MB:",
             "slug": "saber-el-tamano-de-nuestra-bd-en-mb",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Restaurar base de datos",
+            "slug": "restaurar-base-de-datos",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Exportar una query a un archivo csv",
+            "slug": "exportar-una-query-a-un-archivo-csv",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Importar data de un archivo csv",
+            "slug": "importar-data-de-un-archivo-csv",
             "children": []
           }
         ]

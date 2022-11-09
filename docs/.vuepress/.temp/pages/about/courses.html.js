@@ -60,13 +60,13 @@ export const data = {
     }
   ],
   "git": {
-    "createdTime": 1646417179000,
-    "updatedTime": 1647030759000,
+    "createdTime": 1667723316000,
+    "updatedTime": 1667723316000,
     "contributors": [
       {
         "name": "yahu39",
         "email": "yahu39pc@gmail.com",
-        "commits": 2
+        "commits": 1
       }
     ]
   },
