@@ -349,10 +349,10 @@ export const themeData = {
   "encrypt": {
     "config": {
       "/guide/encrypt.html": [
-        "$2a$10$v4Ri4gsFl0CSTtPDtj8Ed./FpbG2D93B6gLtgrBdfw.Dff6Al3Vp2"
+        "$2a$10$RcGp9rqmkdxNBAiCoYNmK.4VPwEcE4ooInR9nN95FH0GTseocVyfi"
       ],
       "/zh/guide/encrypt.html": [
-        "$2a$10$sbclN.kvg2BRxZOjklhoheMerMky3htL5w1sHR2LP2KoR2OlMwlVe"
+        "$2a$10$8cFrqVseOANzmsh1mhC7Ku9bpt/x14nKd4Ky.F1eFxZiHY6nxmHJq"
       ]
     },
     "global": false
@@ -374,17 +374,4 @@ export const themeData = {
     "purple": "#8e44ad"
   },
   "fullScreen": true
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateThemeData) {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ themeData }) => {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  })
 }

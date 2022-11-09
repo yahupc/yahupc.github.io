@@ -92,6 +92,64 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Compresión de Archivos",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Comprimir y descomprimir .tar (tar)",
+        "slug": "comprimir-y-descomprimir-tar-tar",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Comprimir y descomprimir .tar.gz .tar.z .tgz (tar con gzip)",
+        "slug": "comprimir-y-descomprimir-tar-gz-tar-z-tgz-tar-con-gzip",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Comprimir y descomprimir .gz (gzip)",
+        "slug": "comprimir-y-descomprimir-gz-gzip",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Comprimir y descomprimir .bz2 (bzip2)",
+        "slug": "comprimir-y-descomprimir-bz2-bzip2",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Comprimir y descomprimir .zip (zip)",
+        "slug": "comprimir-y-descomprimir-zip-zip",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Comprimir y descomprimir .rar (rar)",
+        "slug": "comprimir-y-descomprimir-rar-rar",
+        "children": []
+      }
+    ],
+    "path": "/posts/linux/comprimir.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Comandos Utiles en LINUX",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Transferencia de archivos",
+        "slug": "transferencia-de-archivos",
+        "children": []
+      }
+    ],
+    "path": "/posts/linux/utils-commands.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Configuración de entorno para analisis de Datos",
     "headers": [
       {
@@ -194,72 +252,8 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Compresión de Archivos",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Comprimir y descomprimir .tar (tar)",
-        "slug": "comprimir-y-descomprimir-tar-tar",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Comprimir y descomprimir .tar.gz .tar.z .tgz (tar con gzip)",
-        "slug": "comprimir-y-descomprimir-tar-gz-tar-z-tgz-tar-con-gzip",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Comprimir y descomprimir .gz (gzip)",
-        "slug": "comprimir-y-descomprimir-gz-gzip",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Comprimir y descomprimir .bz2 (bzip2)",
-        "slug": "comprimir-y-descomprimir-bz2-bzip2",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Comprimir y descomprimir .zip (zip)",
-        "slug": "comprimir-y-descomprimir-zip-zip",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Comprimir y descomprimir .rar (rar)",
-        "slug": "comprimir-y-descomprimir-rar-rar",
-        "children": []
-      }
-    ],
-    "path": "/posts/linux/comprimir.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Comandos Utiles en LINUX",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Transferencia de archivos",
-        "slug": "transferencia-de-archivos",
-        "children": []
-      }
-    ],
-    "path": "/posts/linux/utils-commands.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Comandos Utiles en MYSQL",
     "headers": [
-      {
-        "level": 3,
-        "title": "Restaurar base de datos",
-        "slug": "restaurar-base-de-datos",
-        "children": []
-      },
       {
         "level": 2,
         "title": "Basicos:",
@@ -305,6 +299,24 @@ export const searchIndex = [
             "level": 3,
             "title": "Saber el tamaño de nuestra BD en MB:",
             "slug": "saber-el-tamano-de-nuestra-bd-en-mb",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Restaurar base de datos",
+            "slug": "restaurar-base-de-datos",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Exportar una query a un archivo csv",
+            "slug": "exportar-una-query-a-un-archivo-csv",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Importar data de un archivo csv",
+            "slug": "importar-data-de-un-archivo-csv",
             "children": []
           }
         ]
@@ -392,16 +404,16 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Data science Category",
+    "title": "Linux Category",
     "headers": [],
-    "path": "/category/data-science/",
+    "path": "/category/linux/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Linux Category",
+    "title": "Data science Category",
     "headers": [],
-    "path": "/category/linux/",
+    "path": "/category/data-science/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -420,16 +432,3 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}
