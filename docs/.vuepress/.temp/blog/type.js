@@ -1,4 +1,4 @@
-export const typeMap = {"article":{"/":{"path":"/article/","keys":["v-7a09b4f3","v-740ae845","v-184f4da6","v-687320b9","v-8b329072","v-5ad6ce7f","v-12cdfa3a","v-4cd2e454"]}},"encrypted":{"/":{"path":"/encrypted/","keys":[]}},"slide":{"/":{"path":"/slides/","keys":[]}},"star":{"/":{"path":"/star/","keys":["v-7a09b4f3","v-740ae845","v-184f4da6","v-8b329072","v-5ad6ce7f","v-4cd2e454"]}},"timeline":{"/":{"path":"/timeline/","keys":["v-687320b9","v-8b329072","v-5ad6ce7f","v-12cdfa3a","v-7a09b4f3","v-4cd2e454","v-740ae845","v-184f4da6"]}}}
+export const typeMap = {"article":{"/":{"path":"/article/","keys":["v-184f4da6","v-740ae845","v-7a09b4f3","v-4cd2e454","v-687320b9","v-8b329072","v-5ad6ce7f","v-12cdfa3a"]}},"encrypted":{"/":{"path":"/encrypted/","keys":[]}},"slide":{"/":{"path":"/slides/","keys":[]}},"star":{"/":{"path":"/star/","keys":["v-184f4da6","v-740ae845","v-7a09b4f3","v-4cd2e454","v-8b329072","v-5ad6ce7f"]}},"timeline":{"/":{"path":"/timeline/","keys":[]}}}
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

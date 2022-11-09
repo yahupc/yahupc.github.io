@@ -10,7 +10,7 @@ export const data = {
       "Mysql"
     ],
     "star": true,
-    "summary": "Comandos Utiles en MYSQL Restaurar base de datos Primero creamos nuestra base de datos. Puede ser por linea de comandos o por alguna interfaz.; Luego restauramos nuestra copia de s",
+    "summary": "Comandos Utiles en MYSQL Basicos: Insertar registros: Actualizar registros: Eliminar registros: Cambiar el tamaño de una columna Eliminando duplicados: Buscar y reemplazar valor en",
     "head": [
       [
         "meta",
@@ -51,12 +51,6 @@ export const data = {
   },
   "excerpt": "",
   "headers": [
-    {
-      "level": 3,
-      "title": "Restaurar base de datos",
-      "slug": "restaurar-base-de-datos",
-      "children": []
-    },
     {
       "level": 2,
       "title": "Basicos:",
@@ -103,24 +97,44 @@ export const data = {
           "title": "Saber el tamaño de nuestra BD en MB:",
           "slug": "saber-el-tamano-de-nuestra-bd-en-mb",
           "children": []
+        },
+        {
+          "level": 3,
+          "title": "Restaurar base de datos",
+          "slug": "restaurar-base-de-datos",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Exportar una query a un archivo csv",
+          "slug": "exportar-una-query-a-un-archivo-csv",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Importar data de un archivo csv",
+          "slug": "importar-data-de-un-archivo-csv",
+          "children": []
         }
       ]
     }
   ],
-  "git": {
-    "createdTime": 1656006635000,
-    "updatedTime": 1667714524000,
-    "contributors": [
-      {
-        "name": "yahu39",
-        "email": "yahu39pc@gmail.com",
-        "commits": 5
-      }
-    ]
-  },
   "readingTime": {
-    "minutes": 0.53,
-    "words": 159
+    "minutes": 0.83,
+    "words": 249
   },
   "filePathRelative": "posts/mysql/utils-commands.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }
