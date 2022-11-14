@@ -2,14 +2,14 @@ export const themeData = {
   "hostname": "https://vuepress-theme-hope-v2-demo.mrhope.site",
   "author": {
     "name": "Pablo Yafac",
-    "url": "https://pabloyafac.com"
+    "url": "https://yahupc.github.io"
   },
   "iconPrefix": "iconfont icon-",
   "logo": "/pablo.png",
   "docsDir": "demo/src",
   "blog": {
     "medias": {
-      "GitHub": "https://https://github.com/yahu39",
+      "GitHub": "https://https://github.com/yahupc",
       "Linkedin": "https://www.linkedin.com/in/pablo-yafac-95348412/",
       "Twitter": "https://twitter.com/yahupc"
     },
@@ -349,10 +349,10 @@ export const themeData = {
   "encrypt": {
     "config": {
       "/guide/encrypt.html": [
-        "$2a$10$hED0ERwmm2ut.w5j72mrU.qxk6fprmmZOVmMb6jA7FUMy9U0B2Sau"
+        "$2a$10$epaG7KhdKeg4EGj35M2BOetgEGaf16NUKDLSaeMqIIVHlDXuly3y2"
       ],
       "/zh/guide/encrypt.html": [
-        "$2a$10$T7xOMOwqvBte7XEPL4wDN.Pi.XqoLpJZ/z/Cl49oXrqx7Ub/SiewW"
+        "$2a$10$eWkWj8zy/JsPNTTTgxdqEet4/lQWXXyyOrhRQ59FvIX5YZcSDRg5S"
       ]
     },
     "global": false

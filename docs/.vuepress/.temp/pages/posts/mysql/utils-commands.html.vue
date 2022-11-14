@@ -32,7 +32,7 @@ SET field_name = replace(same_field_name, unwanted_text, wanted_text)
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><h3 id="importar-data-de-un-archivo-csv" tabindex="-1"><a class="header-anchor" href="#importar-data-de-un-archivo-csv" aria-hidden="true">#</a> Importar data de un archivo csv</h3>
 <ul>
 <li>Si te aparece un mensaje de restricción en acceso. Ingresa a la consola con el siguiente comando.<br>
-<code> mysql --local-infile=1 -u root -p gilatsmrt</code></li>
+<code> mysql --local-infile=1 -u root -p database</code></li>
 </ul>
 <div class="language-mysql ext-mysql line-numbers-mode"><pre v-pre class="language-mysql"><code>LOAD DATA LOCAL INFILE '/home/user/test.csv' INTO TABLE test FIELDS TERMINATED BY ',' ENCLOSED BY '&quot;' LINES TERMINATED BY '\n' ;
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div></template>

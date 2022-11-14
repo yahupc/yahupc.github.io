@@ -7,7 +7,7 @@ export default defineThemeConfig({
 
   author: {
     name: "Pablo Yafac",
-    url: "https://pabloyafac.com",
+    url: "https://yahupc.github.io",
   },
 
   iconPrefix: "iconfont icon-",
@@ -20,7 +20,7 @@ export default defineThemeConfig({
 
   blog: {
     medias:{
-      GitHub: "https://https://github.com/yahu39",
+      GitHub: "https://https://github.com/yahupc",
       Linkedin: "https://www.linkedin.com/in/pablo-yafac-95348412/",
       Twitter: "https://twitter.com/yahupc",
     }
