@@ -50,12 +50,12 @@ export const data = {
   "headers": [],
   "git": {
     "createdTime": 1667723316000,
-    "updatedTime": 1667723316000,
+    "updatedTime": 1668408310000,
     "contributors": [
       {
         "name": "yahu39",
         "email": "yahu39pc@gmail.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },

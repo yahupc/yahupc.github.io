@@ -21,4 +21,9 @@ Donde &quot;file&quot; es la carpeta a compartir y el parametro &quot;-r&quot; i
 <code>scp -r root@192.168.3.0:/var/www/ejemplo.com/storage/file /home/user/documents/</code><br>
 Donde &quot;file&quot; es la carpeta a compartir y el parametro &quot;-r&quot; indica recursividad, hara que se envie toda la carpeta y su contenido por completo.</li>
 </ul>
+<h2 id="analizar-logs" tabindex="-1"><a class="header-anchor" href="#analizar-logs" aria-hidden="true">#</a> Analizar logs:</h2>
+<ul>
+<li>journald es el demonio de systemd que recopila los registros de varias fuentes de registro como syslog.<br>
+<code>journalctl --since &quot;2020-07-10 15:10:00&quot; --until &quot;2020-07-12&quot; &gt;&gt; test.log</code></li>
+</ul>
 </template>

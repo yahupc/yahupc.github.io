@@ -245,6 +245,12 @@ export const searchIndex = [
         "title": "Transferencia de archivos",
         "slug": "transferencia-de-archivos",
         "children": []
+      },
+      {
+        "level": 2,
+        "title": "Analizar logs:",
+        "slug": "analizar-logs",
+        "children": []
       }
     ],
     "path": "/posts/linux/utils-commands.html",
