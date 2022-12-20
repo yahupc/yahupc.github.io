@@ -56,6 +56,12 @@ export const data = {
       "title": "Transferencia de archivos",
       "slug": "transferencia-de-archivos",
       "children": []
+    },
+    {
+      "level": 2,
+      "title": "Analizar logs:",
+      "slug": "analizar-logs",
+      "children": []
     }
   ],
   "git": {
@@ -70,8 +76,8 @@ export const data = {
     ]
   },
   "readingTime": {
-    "minutes": 0.72,
-    "words": 215
+    "minutes": 0.82,
+    "words": 247
   },
   "filePathRelative": "posts/linux/utils-commands.md"
 }

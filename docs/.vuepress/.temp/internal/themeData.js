@@ -349,10 +349,10 @@ export const themeData = {
   "encrypt": {
     "config": {
       "/guide/encrypt.html": [
-        "$2a$10$RcGp9rqmkdxNBAiCoYNmK.4VPwEcE4ooInR9nN95FH0GTseocVyfi"
+        "$2a$10$KlZyjzu8fBBZRNIAhKLlIuLjekWrHurtRaKKU8VMwJRmjyIZFASOK"
       ],
       "/zh/guide/encrypt.html": [
-        "$2a$10$8cFrqVseOANzmsh1mhC7Ku9bpt/x14nKd4Ky.F1eFxZiHY6nxmHJq"
+        "$2a$10$57WXaEqhN9Mk7.W1li5CmeUwB315lA4f20EhdXAePuILyBSIxAFbq"
       ]
     },
     "global": false

@@ -92,64 +92,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Compresión de Archivos",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Comprimir y descomprimir .tar (tar)",
-        "slug": "comprimir-y-descomprimir-tar-tar",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Comprimir y descomprimir .tar.gz .tar.z .tgz (tar con gzip)",
-        "slug": "comprimir-y-descomprimir-tar-gz-tar-z-tgz-tar-con-gzip",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Comprimir y descomprimir .gz (gzip)",
-        "slug": "comprimir-y-descomprimir-gz-gzip",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Comprimir y descomprimir .bz2 (bzip2)",
-        "slug": "comprimir-y-descomprimir-bz2-bzip2",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Comprimir y descomprimir .zip (zip)",
-        "slug": "comprimir-y-descomprimir-zip-zip",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Comprimir y descomprimir .rar (rar)",
-        "slug": "comprimir-y-descomprimir-rar-rar",
-        "children": []
-      }
-    ],
-    "path": "/posts/linux/comprimir.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Comandos Utiles en LINUX",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Transferencia de archivos",
-        "slug": "transferencia-de-archivos",
-        "children": []
-      }
-    ],
-    "path": "/posts/linux/utils-commands.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Configuración de entorno para analisis de Datos",
     "headers": [
       {
@@ -248,6 +190,70 @@ export const searchIndex = [
       }
     ],
     "path": "/posts/datascience/entorno.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Compresión de Archivos",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Comprimir y descomprimir .tar (tar)",
+        "slug": "comprimir-y-descomprimir-tar-tar",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Comprimir y descomprimir .tar.gz .tar.z .tgz (tar con gzip)",
+        "slug": "comprimir-y-descomprimir-tar-gz-tar-z-tgz-tar-con-gzip",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Comprimir y descomprimir .gz (gzip)",
+        "slug": "comprimir-y-descomprimir-gz-gzip",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Comprimir y descomprimir .bz2 (bzip2)",
+        "slug": "comprimir-y-descomprimir-bz2-bzip2",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Comprimir y descomprimir .zip (zip)",
+        "slug": "comprimir-y-descomprimir-zip-zip",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Comprimir y descomprimir .rar (rar)",
+        "slug": "comprimir-y-descomprimir-rar-rar",
+        "children": []
+      }
+    ],
+    "path": "/posts/linux/comprimir.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Comandos Utiles en LINUX",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Transferencia de archivos",
+        "slug": "transferencia-de-archivos",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Analizar logs:",
+        "slug": "analizar-logs",
+        "children": []
+      }
+    ],
+    "path": "/posts/linux/utils-commands.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -404,16 +410,16 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Linux Category",
+    "title": "Data science Category",
     "headers": [],
-    "path": "/category/linux/",
+    "path": "/category/data-science/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Data science Category",
+    "title": "Linux Category",
     "headers": [],
-    "path": "/category/data-science/",
+    "path": "/category/linux/",
     "pathLocale": "/",
     "extraFields": []
   },

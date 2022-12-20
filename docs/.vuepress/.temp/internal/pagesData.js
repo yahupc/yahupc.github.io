@@ -13,12 +13,12 @@ export const pagesData = {
   "v-a0e59c58": () => import(/* webpackChunkName: "v-a0e59c58" */"/home/yahupc/Documents/Pablo/Projects/vue/pabloyafac.github.io/docs/.vuepress/.temp/pages/about/experience.html.js").then(({ data }) => data),
   // path: /portfolio/
   "v-2e4c18c0": () => import(/* webpackChunkName: "v-2e4c18c0" */"/home/yahupc/Documents/Pablo/Projects/vue/pabloyafac.github.io/docs/.vuepress/.temp/pages/portfolio/index.html.js").then(({ data }) => data),
+  // path: /posts/datascience/entorno.html
+  "v-4cd2e454": () => import(/* webpackChunkName: "v-4cd2e454" */"/home/yahupc/Documents/Pablo/Projects/vue/pabloyafac.github.io/docs/.vuepress/.temp/pages/posts/datascience/entorno.html.js").then(({ data }) => data),
   // path: /posts/linux/comprimir.html
   "v-687320b9": () => import(/* webpackChunkName: "v-687320b9" */"/home/yahupc/Documents/Pablo/Projects/vue/pabloyafac.github.io/docs/.vuepress/.temp/pages/posts/linux/comprimir.html.js").then(({ data }) => data),
   // path: /posts/linux/utils-commands.html
   "v-740ae845": () => import(/* webpackChunkName: "v-740ae845" */"/home/yahupc/Documents/Pablo/Projects/vue/pabloyafac.github.io/docs/.vuepress/.temp/pages/posts/linux/utils-commands.html.js").then(({ data }) => data),
-  // path: /posts/datascience/entorno.html
-  "v-4cd2e454": () => import(/* webpackChunkName: "v-4cd2e454" */"/home/yahupc/Documents/Pablo/Projects/vue/pabloyafac.github.io/docs/.vuepress/.temp/pages/posts/datascience/entorno.html.js").then(({ data }) => data),
   // path: /posts/mysql/utils-commands.html
   "v-7a09b4f3": () => import(/* webpackChunkName: "v-7a09b4f3" */"/home/yahupc/Documents/Pablo/Projects/vue/pabloyafac.github.io/docs/.vuepress/.temp/pages/posts/mysql/utils-commands.html.js").then(({ data }) => data),
   // path: /posts/vim/commands.html
@@ -43,10 +43,10 @@ export const pagesData = {
   "v-154dc4c4": () => import(/* webpackChunkName: "v-154dc4c4" */"/home/yahupc/Documents/Pablo/Projects/vue/pabloyafac.github.io/docs/.vuepress/.temp/pages/star/index.html.js").then(({ data }) => data),
   // path: /timeline/
   "v-01560935": () => import(/* webpackChunkName: "v-01560935" */"/home/yahupc/Documents/Pablo/Projects/vue/pabloyafac.github.io/docs/.vuepress/.temp/pages/timeline/index.html.js").then(({ data }) => data),
-  // path: /category/linux/
-  "v-9c48d85a": () => import(/* webpackChunkName: "v-9c48d85a" */"/home/yahupc/Documents/Pablo/Projects/vue/pabloyafac.github.io/docs/.vuepress/.temp/pages/category/linux/index.html.js").then(({ data }) => data),
   // path: /category/data-science/
   "v-ee521814": () => import(/* webpackChunkName: "v-ee521814" */"/home/yahupc/Documents/Pablo/Projects/vue/pabloyafac.github.io/docs/.vuepress/.temp/pages/category/data-science/index.html.js").then(({ data }) => data),
+  // path: /category/linux/
+  "v-9c48d85a": () => import(/* webpackChunkName: "v-9c48d85a" */"/home/yahupc/Documents/Pablo/Projects/vue/pabloyafac.github.io/docs/.vuepress/.temp/pages/category/linux/index.html.js").then(({ data }) => data),
   // path: /category/mysql/
   "v-9717cc36": () => import(/* webpackChunkName: "v-9717cc36" */"/home/yahupc/Documents/Pablo/Projects/vue/pabloyafac.github.io/docs/.vuepress/.temp/pages/category/mysql/index.html.js").then(({ data }) => data),
   // path: /category/vim/
