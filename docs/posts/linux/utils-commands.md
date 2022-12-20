@@ -30,3 +30,7 @@ scp usuario@servidor:ruta_servidor_donde_esta_el_archivo ruta_de_destino_local
 + Para transferencia de una carpeta completa de un computador remoto a otro local via SSH:<br>
 `scp -r root@192.168.3.0:/var/www/ejemplo.com/storage/file /home/user/documents/`  
 Donde "file" es la carpeta a compartir y el parametro "-r" indica recursividad, hara que se envie toda la carpeta y su contenido por completo.
+
+## Analizar logs:  
++ journald es el demonio de systemd que recopila los registros de varias fuentes de registro como syslog.  
+`journalctl --since "2020-07-10 15:10:00" --until "2020-07-12" >> test.log`
