@@ -62,22 +62,28 @@ export const data = {
       "title": "Analizar logs:",
       "slug": "analizar-logs",
       "children": []
+    },
+    {
+      "level": 2,
+      "title": "Borrar la extension de los archivos:",
+      "slug": "borrar-la-extension-de-los-archivos",
+      "children": []
     }
   ],
   "git": {
     "createdTime": 1655535115000,
-    "updatedTime": 1667714524000,
+    "updatedTime": 1671516102000,
     "contributors": [
       {
         "name": "yahu39",
         "email": "yahu39pc@gmail.com",
-        "commits": 4
+        "commits": 5
       }
     ]
   },
   "readingTime": {
-    "minutes": 0.82,
-    "words": 247
+    "minutes": 0.95,
+    "words": 284
   },
   "filePathRelative": "posts/linux/utils-commands.md"
 }

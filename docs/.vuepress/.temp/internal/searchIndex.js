@@ -251,6 +251,12 @@ export const searchIndex = [
         "title": "Analizar logs:",
         "slug": "analizar-logs",
         "children": []
+      },
+      {
+        "level": 2,
+        "title": "Borrar la extension de los archivos:",
+        "slug": "borrar-la-extension-de-los-archivos",
+        "children": []
       }
     ],
     "path": "/posts/linux/utils-commands.html",
