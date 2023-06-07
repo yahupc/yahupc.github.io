@@ -1,15 +1,24 @@
-<template><p>Los archivos dotfiles, son los archivos que en sistemas unix, comienzan con un punto (.) , estos archivos , son archivos ocultos y sirven para configurar al programa que hace referencia.
-Para ello hago uso del programa stow.</p>
+<template><h1 id="dotfiles" tabindex="-1"><a class="header-anchor" href="#dotfiles" aria-hidden="true">#</a> Dotfiles</h1>
 <ul>
-<li>Esto me permite manejar todos mis dotfiles en una carpeta aperte y solo proporcionar enlaces directos de estos al directorio home</li>
+<li>Los archivos dotfiles, son los archivos que utilizan algunos programas para su configuracion y personalización. Estos estan ocultos y comienzan con la extension . (&quot;punto&quot;)</li>
+<li>Si queremos pasar nuestra configuracion de un computador a otro. Podemos guardar estos archivos en algun gestor de versiones como github, gitlab, etc.</li>
+<li>Antes de respaldar nuestros dotfiles , podriamos utilizar el programa llamado <em>stow</em>. El cual centraliza todos nuestros dotfiles en una sola carpeta para una mejor administración.</li>
 </ul>
-<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token comment"># Crear carpeta </span>
-<span class="token function">mkdir</span> dotfiles
-<span class="token comment"># Dirigirse al archivo creado (.dotfiles)</span>
-<span class="token builtin class-name">cd</span> dotfile
-<span class="token comment"># Ya en la carpeta ejecutamos el comando.</span>
+<h2 id="stow" tabindex="-1"><a class="header-anchor" href="#stow" aria-hidden="true">#</a> Stow</h2>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token comment">#Instalar stow</span>
+<span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> -y stow
+<span class="token comment"># Crear carpeta donde guardaremos nuestros dotfiles.</span>
+<span class="token function">mkdir</span> .dotfiles
+<span class="token comment"># Mover todos los archivos de configuracion a la carpeta creada.</span>
+<span class="token function">mv</span> <span class="token punctuation">[</span>archivo_de_configuracion<span class="token punctuation">]</span> ~/.dotfiles/
+<span class="token comment"># Dirigirse al directorio creado (.dotfiles)</span>
+<span class="token builtin class-name">cd</span> .dotfile
+<span class="token comment"># Ya ubicados en el directorio ejecutamos el comando.</span>
 stow <span class="token builtin class-name">.</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><blockquote>
-<p>Esto creará los enlaces directos.</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><ul>
+<li>Esto creará los enlaces directos de todos los archivos de configuracion, guardados en nuestra carpeta .dotfiles a nuestro home (/home/[username]).</li>
+</ul>
+<blockquote>
+<p>De esta manera la configuración de nuestros programas no sufriran modificación alguna.</p>
 </blockquote>
 </template>

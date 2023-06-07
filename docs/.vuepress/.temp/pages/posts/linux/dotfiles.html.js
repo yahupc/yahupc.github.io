@@ -1,16 +1,23 @@
 export const data = {
   "key": "v-2b0d27db",
   "path": "/posts/linux/dotfiles.html",
-  "title": "",
+  "title": "Dotfiles",
   "lang": "en-US",
   "frontmatter": {
-    "summary": "Los archivos dotfiles, son los archivos que en sistemas unix, comienzan con un punto (.) , estos archivos , son archivos ocultos y sirven para configurar al programa que hace refer",
+    "summary": "Dotfiles Los archivos dotfiles, son los archivos que utilizan algunos programas para su configuracion y personalización. Estos estan ocultos y comienzan con la extension . (\"punto\"",
     "head": [
       [
         "meta",
         {
           "property": "og:url",
           "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/posts/linux/dotfiles.html"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "Dotfiles"
         }
       ],
       [
@@ -37,10 +44,17 @@ export const data = {
     ]
   },
   "excerpt": "",
-  "headers": [],
+  "headers": [
+    {
+      "level": 2,
+      "title": "Stow",
+      "slug": "stow",
+      "children": []
+    }
+  ],
   "readingTime": {
-    "minutes": 0.28,
-    "words": 85
+    "minutes": 0.53,
+    "words": 158
   },
   "filePathRelative": "posts/linux/dotfiles.md"
 }
