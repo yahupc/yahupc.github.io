@@ -21,6 +21,8 @@ export const pagesComponents = {
   "v-687320b9": defineAsyncComponent(() => import(/* webpackChunkName: "v-687320b9" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/posts/linux/comprimir.html.vue")),
   // path: /posts/linux/dotfiles.html
   "v-2b0d27db": defineAsyncComponent(() => import(/* webpackChunkName: "v-2b0d27db" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/posts/linux/dotfiles.html.vue")),
+  // path: /posts/linux/sshfs.html
+  "v-421cbe14": defineAsyncComponent(() => import(/* webpackChunkName: "v-421cbe14" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/posts/linux/sshfs.html.vue")),
   // path: /posts/linux/utils-commands.html
   "v-740ae845": defineAsyncComponent(() => import(/* webpackChunkName: "v-740ae845" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/posts/linux/utils-commands.html.vue")),
   // path: /posts/mysql/utils-commands.html

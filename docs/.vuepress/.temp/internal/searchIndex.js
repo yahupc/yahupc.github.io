@@ -238,9 +238,42 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "",
-    "headers": [],
+    "title": "Dotfiles",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Stow",
+        "slug": "stow",
+        "children": []
+      }
+    ],
     "path": "/posts/linux/dotfiles.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Instalación:",
+        "slug": "instalacion",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Montar archivos remotos:",
+        "slug": "montar-archivos-remotos",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Desmontar archivos remotos :",
+        "slug": "desmontar-archivos-remotos",
+        "children": []
+      }
+    ],
+    "path": "/posts/linux/sshfs.html",
     "pathLocale": "/",
     "extraFields": []
   },

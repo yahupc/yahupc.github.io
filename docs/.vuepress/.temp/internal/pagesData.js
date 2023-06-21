@@ -19,6 +19,8 @@ export const pagesData = {
   "v-687320b9": () => import(/* webpackChunkName: "v-687320b9" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/posts/linux/comprimir.html.js").then(({ data }) => data),
   // path: /posts/linux/dotfiles.html
   "v-2b0d27db": () => import(/* webpackChunkName: "v-2b0d27db" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/posts/linux/dotfiles.html.js").then(({ data }) => data),
+  // path: /posts/linux/sshfs.html
+  "v-421cbe14": () => import(/* webpackChunkName: "v-421cbe14" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/posts/linux/sshfs.html.js").then(({ data }) => data),
   // path: /posts/linux/utils-commands.html
   "v-740ae845": () => import(/* webpackChunkName: "v-740ae845" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/posts/linux/utils-commands.html.js").then(({ data }) => data),
   // path: /posts/mysql/utils-commands.html
