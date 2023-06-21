@@ -1,4 +1,4 @@
-# Dotfiles
+# dotfiles
 + Los archivos dotfiles, son los archivos que utilizan algunos programas para su configuracion y personalización. Estos estan ocultos y comienzan con la extension . ("punto")  
 + Si queremos pasar nuestra configuracion de un computador a otro. Podemos guardar estos archivos en algun gestor de versiones como github, gitlab, etc.
 + Antes de respaldar nuestros dotfiles , podriamos utilizar el programa llamado *stow*. El cual centraliza todos nuestros dotfiles en una sola carpeta para una mejor administración.

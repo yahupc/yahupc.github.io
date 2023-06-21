@@ -64,22 +64,20 @@ export const data = {
       "children": []
     }
   ],
+  "git": {
+    "createdTime": 1687382556000,
+    "updatedTime": 1687382556000,
+    "contributors": [
+      {
+        "name": "yahupc",
+        "email": "yahu39pc@gmail.com",
+        "commits": 1
+      }
+    ]
+  },
   "readingTime": {
     "minutes": 0.92,
     "words": 275
   },
   "filePathRelative": "posts/linux/sshfs.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

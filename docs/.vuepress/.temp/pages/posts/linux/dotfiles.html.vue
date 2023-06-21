@@ -1,4 +1,4 @@
-<template><h1 id="dotfiles" tabindex="-1"><a class="header-anchor" href="#dotfiles" aria-hidden="true">#</a> Dotfiles</h1>
+<template><h1 id="dotfiles" tabindex="-1"><a class="header-anchor" href="#dotfiles" aria-hidden="true">#</a> dotfiles</h1>
 <ul>
 <li>Los archivos dotfiles, son los archivos que utilizan algunos programas para su configuracion y personalización. Estos estan ocultos y comienzan con la extension . (&quot;punto&quot;)</li>
 <li>Si queremos pasar nuestra configuracion de un computador a otro. Podemos guardar estos archivos en algun gestor de versiones como github, gitlab, etc.</li>

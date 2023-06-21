@@ -238,7 +238,7 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Dotfiles",
+    "title": "dotfiles",
     "headers": [
       {
         "level": 2,
@@ -252,7 +252,7 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "",
+    "title": "sshfs",
     "headers": [
       {
         "level": 2,
@@ -278,7 +278,7 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Comandos Utiles en LINUX",
+    "title": "Comandos Utiles",
     "headers": [
       {
         "level": 2,
@@ -484,16 +484,3 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}

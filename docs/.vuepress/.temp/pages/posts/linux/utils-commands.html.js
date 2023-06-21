@@ -1,7 +1,7 @@
 export const data = {
   "key": "v-740ae845",
   "path": "/posts/linux/utils-commands.html",
-  "title": "Comandos Utiles en LINUX",
+  "title": "Comandos Utiles",
   "lang": "en-US",
   "frontmatter": {
     "icon": "code",
@@ -10,7 +10,7 @@ export const data = {
       "Linux"
     ],
     "star": true,
-    "summary": "Comandos Utiles en LINUX Cuando uses Linux , una de las maravillas que tiene este sistema operativo, es su terminal. Puedes realizar practicamente lo que quieras con el. Aqui te da",
+    "summary": "Comandos Utiles Cuando uses Linux , una de las maravillas que tiene este sistema operativo, es su terminal. Puedes realizar practicamente lo que quieras con el. Aqui te daré alguno",
     "head": [
       [
         "meta",
@@ -23,7 +23,7 @@ export const data = {
         "meta",
         {
           "property": "og:title",
-          "content": "Comandos Utiles en LINUX"
+          "content": "Comandos Utiles"
         }
       ],
       [
@@ -70,22 +70,25 @@ export const data = {
       "children": []
     }
   ],
+  "git": {
+    "createdTime": 1655535115000,
+    "updatedTime": 1685939398000,
+    "contributors": [
+      {
+        "name": "yahu39",
+        "email": "yahu39pc@gmail.com",
+        "commits": 6
+      },
+      {
+        "name": "yahupc",
+        "email": "yahu39pc@gmail.com",
+        "commits": 1
+      }
+    ]
+  },
   "readingTime": {
-    "minutes": 0.95,
-    "words": 284
+    "minutes": 0.94,
+    "words": 282
   },
   "filePathRelative": "posts/linux/utils-commands.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

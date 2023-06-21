@@ -1,10 +1,10 @@
 export const data = {
   "key": "v-2b0d27db",
   "path": "/posts/linux/dotfiles.html",
-  "title": "Dotfiles",
+  "title": "dotfiles",
   "lang": "en-US",
   "frontmatter": {
-    "summary": "Dotfiles Los archivos dotfiles, son los archivos que utilizan algunos programas para su configuracion y personalización. Estos estan ocultos y comienzan con la extension . (\"punto\"",
+    "summary": "dotfiles Los archivos dotfiles, son los archivos que utilizan algunos programas para su configuracion y personalización. Estos estan ocultos y comienzan con la extension . (\"punto\"",
     "head": [
       [
         "meta",
@@ -17,7 +17,7 @@ export const data = {
         "meta",
         {
           "property": "og:title",
-          "content": "Dotfiles"
+          "content": "dotfiles"
         }
       ],
       [
@@ -52,22 +52,25 @@ export const data = {
       "children": []
     }
   ],
+  "git": {
+    "createdTime": 1685939398000,
+    "updatedTime": 1686108259000,
+    "contributors": [
+      {
+        "name": "yahu39",
+        "email": "yahu39pc@gmail.com",
+        "commits": 1
+      },
+      {
+        "name": "yahupc",
+        "email": "yahu39pc@gmail.com",
+        "commits": 1
+      }
+    ]
+  },
   "readingTime": {
     "minutes": 0.53,
     "words": 158
   },
   "filePathRelative": "posts/linux/dotfiles.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

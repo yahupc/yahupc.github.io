@@ -119,22 +119,20 @@ export const data = {
       ]
     }
   ],
+  "git": {
+    "createdTime": 1656006635000,
+    "updatedTime": 1667980443000,
+    "contributors": [
+      {
+        "name": "yahu39",
+        "email": "yahu39pc@gmail.com",
+        "commits": 6
+      }
+    ]
+  },
   "readingTime": {
     "minutes": 0.83,
     "words": 249
   },
   "filePathRelative": "posts/mysql/utils-commands.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

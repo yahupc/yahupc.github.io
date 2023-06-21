@@ -9,6 +9,7 @@ import clientAppEnhance7 from '/home/yahupc/Projects/Personal/yahupc.github.io/n
 import clientAppEnhance8 from '/home/yahupc/Projects/Personal/yahupc.github.io/node_modules/vuepress-theme-hope/lib/client/module/sidebar/appEnhance.js'
 import clientAppEnhance9 from '/home/yahupc/Projects/Personal/yahupc.github.io/node_modules/vuepress-theme-hope/lib/client/module/blog/appEnhance.js'
 import clientAppEnhance10 from '/home/yahupc/Projects/Personal/yahupc.github.io/node_modules/@vuepress/plugin-search/lib/client/clientAppEnhance.js'
+import clientAppEnhance11 from '/home/yahupc/Projects/Personal/yahupc.github.io/node_modules/@vuepress/plugin-google-analytics/lib/client/clientAppEnhance.js'
 
 export const clientAppEnhances = [
   clientAppEnhance0,
@@ -22,4 +23,5 @@ export const clientAppEnhances = [
   clientAppEnhance8,
   clientAppEnhance9,
   clientAppEnhance10,
+  clientAppEnhance11,
 ]
