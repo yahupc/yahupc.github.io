@@ -379,27 +379,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Commands VIM",
-    "headers": [],
-    "path": "/posts/vim/commands.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Instalation VIM",
-    "headers": [],
-    "path": "/posts/vim/instalation.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "NVim",
-    "headers": [],
-    "path": "/posts/vim/nvim.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -473,13 +452,6 @@ export const searchIndex = [
     "title": "Mysql Category",
     "headers": [],
     "path": "/category/mysql/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Vim Category",
-    "headers": [],
-    "path": "/category/vim/",
     "pathLocale": "/",
     "extraFields": []
   }

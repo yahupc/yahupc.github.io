@@ -8,7 +8,7 @@ export const data = {
     "category": [
       "Vim"
     ],
-    "star": true,
+    "star": false,
     "summary": "Commands VIM",
     "head": [
       [
@@ -50,20 +50,22 @@ export const data = {
   },
   "excerpt": "",
   "headers": [],
-  "git": {
-    "createdTime": 1666068807000,
-    "updatedTime": 1667714524000,
-    "contributors": [
-      {
-        "name": "yahu39",
-        "email": "yahu39pc@gmail.com",
-        "commits": 2
-      }
-    ]
-  },
   "readingTime": {
     "minutes": 0.01,
     "words": 2
   },
   "filePathRelative": "posts/vim/commands.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

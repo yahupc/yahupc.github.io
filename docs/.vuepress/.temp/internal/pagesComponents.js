@@ -27,12 +27,6 @@ export const pagesComponents = {
   "v-740ae845": defineAsyncComponent(() => import(/* webpackChunkName: "v-740ae845" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/posts/linux/utils-commands.html.vue")),
   // path: /posts/mysql/utils-commands.html
   "v-7a09b4f3": defineAsyncComponent(() => import(/* webpackChunkName: "v-7a09b4f3" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/posts/mysql/utils-commands.html.vue")),
-  // path: /posts/vim/commands.html
-  "v-8b329072": defineAsyncComponent(() => import(/* webpackChunkName: "v-8b329072" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/posts/vim/commands.html.vue")),
-  // path: /posts/vim/instalation.html
-  "v-5ad6ce7f": defineAsyncComponent(() => import(/* webpackChunkName: "v-5ad6ce7f" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/posts/vim/instalation.html.vue")),
-  // path: /posts/vim/nvim.html
-  "v-12cdfa3a": defineAsyncComponent(() => import(/* webpackChunkName: "v-12cdfa3a" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/posts/vim/nvim.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/404.html.vue")),
   // path: /category/
@@ -55,6 +49,4 @@ export const pagesComponents = {
   "v-9c48d85a": defineAsyncComponent(() => import(/* webpackChunkName: "v-9c48d85a" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/category/linux/index.html.vue")),
   // path: /category/mysql/
   "v-9717cc36": defineAsyncComponent(() => import(/* webpackChunkName: "v-9717cc36" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/category/mysql/index.html.vue")),
-  // path: /category/vim/
-  "v-65f6a76d": defineAsyncComponent(() => import(/* webpackChunkName: "v-65f6a76d" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/category/vim/index.html.vue")),
 }

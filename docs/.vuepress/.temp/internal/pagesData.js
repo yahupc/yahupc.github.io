@@ -25,12 +25,6 @@ export const pagesData = {
   "v-740ae845": () => import(/* webpackChunkName: "v-740ae845" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/posts/linux/utils-commands.html.js").then(({ data }) => data),
   // path: /posts/mysql/utils-commands.html
   "v-7a09b4f3": () => import(/* webpackChunkName: "v-7a09b4f3" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/posts/mysql/utils-commands.html.js").then(({ data }) => data),
-  // path: /posts/vim/commands.html
-  "v-8b329072": () => import(/* webpackChunkName: "v-8b329072" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/posts/vim/commands.html.js").then(({ data }) => data),
-  // path: /posts/vim/instalation.html
-  "v-5ad6ce7f": () => import(/* webpackChunkName: "v-5ad6ce7f" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/posts/vim/instalation.html.js").then(({ data }) => data),
-  // path: /posts/vim/nvim.html
-  "v-12cdfa3a": () => import(/* webpackChunkName: "v-12cdfa3a" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/posts/vim/nvim.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
   // path: /category/
@@ -53,6 +47,4 @@ export const pagesData = {
   "v-9c48d85a": () => import(/* webpackChunkName: "v-9c48d85a" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/category/linux/index.html.js").then(({ data }) => data),
   // path: /category/mysql/
   "v-9717cc36": () => import(/* webpackChunkName: "v-9717cc36" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/category/mysql/index.html.js").then(({ data }) => data),
-  // path: /category/vim/
-  "v-65f6a76d": () => import(/* webpackChunkName: "v-65f6a76d" */"/home/yahupc/Projects/Personal/yahupc.github.io/docs/.vuepress/.temp/pages/category/vim/index.html.js").then(({ data }) => data),
 }

@@ -1,2 +1,0 @@
-# NVim
-Instalacion de NVIM

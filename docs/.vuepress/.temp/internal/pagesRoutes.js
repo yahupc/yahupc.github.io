@@ -14,9 +14,6 @@ const routeItems = [
   ["v-421cbe14","/posts/linux/sshfs.html",{"title":"sshfs","type":"article","readingTime":{"minutes":0.92,"words":275},"excerpt":"sshfs En informática, SSHFS (SSH Filesystem) es un cliente de sistema de archivos para montar e interactuar con directorios y archivos ubicados en un servidor remoto o estación de ","date":"2023-06-21T21:22:36.000Z"},["/posts/linux/sshfs","/posts/linux/sshfs.md"]],
   ["v-740ae845","/posts/linux/utils-commands.html",{"title":"Comandos Utiles","icon":"code","type":"article","readingTime":{"minutes":0.94,"words":282},"excerpt":"Comandos Utiles Cuando uses Linux , una de las maravillas que tiene este sistema operativo, es su terminal. Puedes realizar practicamente lo que quieras con el. Aqui te daré alguno","date":"2022-06-18T06:51:55.000Z","category":["Linux"],"sticky":true,"star":true},["/posts/linux/utils-commands","/posts/linux/utils-commands.md"]],
   ["v-7a09b4f3","/posts/mysql/utils-commands.html",{"title":"Comandos Utiles en MYSQL","icon":"code","type":"article","readingTime":{"minutes":0.83,"words":249},"excerpt":"Comandos Utiles en MYSQL Basicos: Insertar registros: Actualizar registros: Eliminar registros: Cambiar el tamaño de una columna Eliminando duplicados: Buscar y reemplazar valor en","date":"2022-06-23T17:50:35.000Z","category":["Mysql"],"sticky":true,"star":true},["/posts/mysql/utils-commands","/posts/mysql/utils-commands.md"]],
-  ["v-8b329072","/posts/vim/commands.html",{"title":"Commands VIM","icon":"vim","type":"article","readingTime":{"minutes":0.01,"words":2},"excerpt":"Commands VIM","date":"2022-10-18T04:53:27.000Z","category":["Vim"],"star":true},["/posts/vim/commands","/posts/vim/commands.md"]],
-  ["v-5ad6ce7f","/posts/vim/instalation.html",{"title":"Instalation VIM","icon":"vim","type":"article","readingTime":{"minutes":0.01,"words":2},"excerpt":"Instalation VIM","date":"2022-10-18T04:53:27.000Z","category":["Vim"],"star":true},["/posts/vim/instalation","/posts/vim/instalation.md"]],
-  ["v-12cdfa3a","/posts/vim/nvim.html",{"title":"NVim","type":"article","readingTime":{"minutes":0.01,"words":4},"excerpt":"NVim Instalacion de NVIM","date":"2022-10-18T04:53:27.000Z"},["/posts/vim/nvim","/posts/vim/nvim.md"]],
   ["v-3706649a","/404.html",{"title":"","type":"page","readingTime":{"minutes":0,"words":0},"excerpt":""},["/404"]],
   ["v-5bc93818","/category/",{"title":"Category","type":"page","readingTime":{"minutes":0,"words":0},"excerpt":""},["/category/index.html"]],
   ["v-744d024e","/tag/",{"title":"Tags","type":"page","readingTime":{"minutes":0,"words":0},"excerpt":""},["/tag/index.html"]],
@@ -28,7 +25,6 @@ const routeItems = [
   ["v-ee521814","/category/data-science/",{"title":"Data science Category","type":"page","readingTime":{"minutes":0,"words":0},"excerpt":""},["/category/data-science/index.html"]],
   ["v-9c48d85a","/category/linux/",{"title":"Linux Category","type":"page","readingTime":{"minutes":0,"words":0},"excerpt":""},["/category/linux/index.html"]],
   ["v-9717cc36","/category/mysql/",{"title":"Mysql Category","type":"page","readingTime":{"minutes":0,"words":0},"excerpt":""},["/category/mysql/index.html"]],
-  ["v-65f6a76d","/category/vim/",{"title":"Vim Category","type":"page","readingTime":{"minutes":0,"words":0},"excerpt":""},["/category/vim/index.html"]],
 ]
 
 export const pagesRoutes = routeItems.reduce(

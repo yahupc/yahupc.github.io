@@ -72,7 +72,7 @@ export const data = {
   ],
   "git": {
     "createdTime": 1655535115000,
-    "updatedTime": 1685939398000,
+    "updatedTime": 1687386310000,
     "contributors": [
       {
         "name": "yahu39",
@@ -82,7 +82,7 @@ export const data = {
       {
         "name": "yahupc",
         "email": "yahu39pc@gmail.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },
